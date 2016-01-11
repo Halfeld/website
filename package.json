@@ -1,0 +1,34 @@
+{
+  "name": "halfeld",
+  "version": "1.0.0",
+  "description": "Igor luíz - Desenvolvedor Front-end",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "halfeld.github.io"
+  },
+  "keywords": [
+    "Igor",
+    "Luíz",
+    "Halfeld",
+    "Front-end",
+    "currículo",
+    "halbilidades",
+    "programador"
+  ],
+  "author": "Igor Luíz <igorelmerico@hotmail.com>",
+  "license": "GPLv3",
+  "devDependencies": {
+    "gulp-compass": "~2.1.0",
+    "gulp-plumber": "~1.0.1",
+    "gulp-uglify": "~1.5.1",
+    "gulp-newer": "~1.1.0",
+    "gulp": "~3.9.0",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-imagemin": "~2.4.0",
+    "browser-sync": "~2.11.0"
+  }
+}
