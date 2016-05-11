@@ -2,7 +2,6 @@
 
 Brasileiro, solteiro, 17 anos.  
 Rio de Janeiro, BR.  
-Telefone: __(21) 9 8672-1065__  
 E-mail: <mailto:igorelmerico@hotmail.com>
 
 ### Objetivo 
@@ -18,19 +17,29 @@ Ganhar experiência no mercado de trabalho e aumentar gama de conhecimento.
 
 ### Habilidades
 * Inglês intermediário.
-* Ruby básico/Jekyll.
-* Git/github.
-* PHP.
+* Jekyll.
+* Git.
+* PHP(básico).
+* MongoDB.
+* Redis.
 * MySQL.
 * NodeJS.
 * Gulp.
-* JavaScript/jQuery/AJAX.
-* HTML5 e CSS3/SASS/COMPASS.
+* Grunt.
+* Ionic.
+* AngularJS.
+* jQuery.
+* JavaScript.
+* TDD e BDD.
+* Atomic Design
+* BEM(básico).
+* SASS/COMPASS.
+* Stylus.
+* HTML5 e CSS3.
 * Algoritmo.
 * Photoshop.
 * CorelDRAW e Inkscape.
 * Fireworks.
-* Dreamweaver.
 * Montagem, Manutenção e Redes de computadores.
 * Microsoft Office
 * Libre Office
