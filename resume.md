@@ -1,21 +1,14 @@
 # Igor Luíz Carneiro de Oliveira
 
-Brasileiro, solteiro, 17 anos.  
+Brazilian, single, 17 years old.  
 Rio de Janeiro, BR.  
 E-mail: <mailto:igorelmerico@hotmail.com>
 
-### Objetivo 
-Ganhar experiência no mercado de trabalho e aumentar gama de conhecimento.
+### Education
+* Ensino Médio Complete.
+* Ensino Fundamental Complete.
 
-### Síntese Qualificações  
-* Bons Conhecimentos em Informática.
-* Disposição para Aprendizagem.
-
-### Formação Acadêmica
-* Ensino Médio Completo.
-* Ensino Fundamental Completo.
-
-### Habilidades
+### Skills
 * Inglês intermediário.
 * Jekyll.
 * Git.
@@ -24,6 +17,7 @@ Ganhar experiência no mercado de trabalho e aumentar gama de conhecimento.
 * Redis.
 * MySQL.
 * NodeJS.
+* Express.
 * Gulp.
 * Grunt.
 * Ionic.
@@ -45,11 +39,3 @@ Ganhar experiência no mercado de trabalho e aumentar gama de conhecimento.
 * Libre Office
 * Informática Avançada(Linux).
 * Informática Básica(Windows).
-
-
-
-
-
-
-
-

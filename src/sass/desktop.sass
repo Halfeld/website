@@ -12,8 +12,8 @@ header[role="apresentation"]
     background-color: $white_color
     animation: enter 0.3s ease-out
     animation-fill-mode: forwards
-    
-    
+
+
     .person
         border: 5px solid $black_color
         position: relative
@@ -100,16 +100,17 @@ header[role="apresentation"]
             @extend .github
 
             +custom-select($black_color, $white_color)
-        
-        
-        
+
+
+
 /* Description */
 .page-content
     //border: 1px solid white
     position: relative
     float: left
-    margin-top: 5rem
-    margin-left: 5rem
+    // margin-top: 5rem
+    // margin-left: 5rem
+    padding: 5rem
     width: 50%
     height: 30rem
     top: 1rem
@@ -117,21 +118,21 @@ header[role="apresentation"]
     animation: appear-top 0.9s ease-out
     animation-fill-mode: forwards
     animation-delay: 1.9s
-    
+
     h1
         font-size: 1.9rem
         font-family: $type_font
         color: $white_color
         text-shadow: 0px 0px 0.5px $white_color
         +custom-select($white_color, $black_color)
-        
+
     h2
         font-family: $type_font
         font-size: 1.5rem
         color: $white_color
         text-shadow: 0px 0px 0.5px $white_color
         +custom-select($white_color, $black_color)
-    
+
     p
         font-family: $type_font
         font-size: 1.2rem
@@ -139,18 +140,18 @@ header[role="apresentation"]
         line-height: 1.4rem
         text-shadow: 0px 0px 0.5px $white_color
         +custom-select($white_color, $black_color)
-    
+
     a
         font-family: $type_font
         text-decoration: none
         color: $blue_color
         text-shadow: 0px 0px 0.5px $white_color
         +custom-select($white_color, $black_color)
-        
+
     strong
         +custom-select($white_color, $black_color)
-        
-        
+
+
     span
         border: 1px solid $white_color
         position: relative
@@ -164,19 +165,10 @@ header[role="apresentation"]
         -ms-user-select: none
         -o-user-select: none
         user-select: none
-        
+
         &:hover
             background-color: $white_color
             color: $black_color
         &:hover
             background-color: $white_color
             color: $black_color
-        
-    
-    
-    
-    
-    
-    
-    
-    
