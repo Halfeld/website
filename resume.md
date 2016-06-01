@@ -5,14 +5,14 @@ Rio de Janeiro, BR.
 E-mail: <mailto:igorelmerico@hotmail.com>
 
 ### Education
-* Ensino Médio Complete.
-* Ensino Fundamental Complete.
+* High school Complete.
+* Elementary School Complete.
 
 ### Skills
-* Inglês intermediário.
+* Intermediary English.
 * Jekyll.
 * Git.
-* PHP(básico).
+* PHP(basic).
 * MongoDB.
 * Redis.
 * MySQL.
@@ -24,18 +24,18 @@ E-mail: <mailto:igorelmerico@hotmail.com>
 * AngularJS.
 * jQuery.
 * JavaScript.
-* TDD e BDD.
+* TDD and BDD.
 * Atomic Design
-* BEM(básico).
+* BEM(basic).
 * SASS/COMPASS.
 * Stylus.
-* HTML5 e CSS3.
+* HTML5 and CSS3.
 * Algoritmo.
 * Photoshop.
-* CorelDRAW e Inkscape.
+* CorelDRAW and Inkscape.
 * Fireworks.
-* Montagem, Manutenção e Redes de computadores.
+* Installation, maintenance and computer networks.
 * Microsoft Office
 * Libre Office
-* Informática Avançada(Linux).
-* Informática Básica(Windows).
+* Advanced computer(Linux).
+* Basic computer(Windows).
