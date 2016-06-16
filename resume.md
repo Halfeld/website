@@ -30,7 +30,7 @@ E-mail: <mailto:igorelmerico@hotmail.com>
 * SASS/COMPASS.
 * Stylus.
 * HTML5 and CSS3.
-* Algoritmo.
+* Algorithm.
 * Photoshop.
 * CorelDRAW and Inkscape.
 * Fireworks.
