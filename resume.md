@@ -11,8 +11,9 @@ E-mail: <mailto:igorelmerico@hotmail.com>
 ### Skills
 * Intermediary English.
 * Jekyll.
+* Ruby(basic).
 * Git.
-* PHP(basic).
+* PHP(intermediary).
 * MongoDB.
 * Redis.
 * MySQL.
@@ -20,20 +21,21 @@ E-mail: <mailto:igorelmerico@hotmail.com>
 * Express.
 * Gulp.
 * Grunt.
+* Webpack.
 * Ionic.
+* VueJS.
 * AngularJS.
 * jQuery.
 * JavaScript.
 * TDD and BDD.
-* Atomic Design
-* BEM(basic).
+* Atomic Design(basic).
+* BEM.
+* PostCSS
 * SASS/COMPASS.
 * Stylus.
-* HTML5 and CSS3.
-* Algorithm.
+* HTML5/CSS3.
 * Photoshop.
 * CorelDRAW and Inkscape.
-* Fireworks.
 * Installation, maintenance and computer networks.
 * Microsoft Office
 * Libre Office
