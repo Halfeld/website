@@ -30,7 +30,7 @@ E-mail: <mailto:igorelmerico@hotmail.com>
 * TDD and BDD.
 * Atomic Design(basic).
 * BEM.
-* PostCSS
+* PostCSS.
 * SASS/COMPASS.
 * Stylus.
 * HTML5/CSS3.
