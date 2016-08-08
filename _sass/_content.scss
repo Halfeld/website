@@ -1,0 +1,32 @@
+
+.content {
+  width: 40rem;
+  margin: {
+    top: 2rem;
+    bottom: 2rem;
+  }
+  color: $color-black;
+
+  h1 {
+    font-size: 4rem;
+    margin: {
+      top: 1rem;
+      bottom: 1rem;
+    }
+  }
+
+  p {
+    font-size: 2rem;
+    line-height: 160%;
+  }
+
+  a {
+    text-decoration: underline;;
+    font-size: 2rem;
+    color: inherit;
+
+    &:hover {
+      color: $color-base;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+---
+layout: page
+title: Articles
+permalink: /articles/
+---
+
+<article class="articles">
+  {% for article in site.data.articles.articles %}
+    <a href="{{ article.url }}" target="blank" class="article">
+      <div class="article__box">
+        <h1 class="article__box--title">{{ article.title }}</h1>
+        <h2 class="article__box--desc">{{ article.desc }}</h2>
+        <span class="article__box--date">{{ article.date | upcase}}</span><br>
+        <span class="article__box--lang">{{ article.lang }}</span>
+      </div>
+    </a>
+  {% endfor %}
+</article>

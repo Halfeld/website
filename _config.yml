@@ -1,20 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Igor Luíz - Full Stack JavaScript Developer
-name: "Igor Luíz"
-email: igorelmerico@hotmail.com
-description: "Full Stack JavaScript Developer"
+title: Igor Luíz
+email: igor@devstacks.com.br
+description: > # this means to ignore newlines until "baseurl:"
+  Full Stack Javascript Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://halfeld.github.io" # the base hostname & protocol for your site
+github_username:  halfeld
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
 
-
+links:
+  - title: About
+    url: /
+  - title: Articles
+    url: /articles/
+  - title: Projects
+    url: /projects/
+  - title: Resume
+    url: https://github.com/Halfeld/halfeld.github.io/blob/master/resume.md
 
 exclude: ['package.json', 'src', 'node_modules']

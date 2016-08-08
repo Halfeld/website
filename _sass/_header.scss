@@ -1,0 +1,55 @@
+
+// Header
+// =======
+.header {
+  width: 100vw;
+  height: 70vh;
+  color: $color-gray;
+  background: transparent;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  // My information, e.g. Name and Description
+  // =========================================
+  > .header__personal {
+    display: flex;
+    flex-direction: row;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    // My photo
+    // ========
+    > .header__personal-photo {
+      width: 15rem;
+      height: 15rem;
+      border-radius: 50%;
+    }
+
+    // Details
+    // =======
+    > .header__personal-info {
+      margin-left: 2.5rem;
+
+      // Name
+      // ====
+      > .header__personal-info--name {
+        font-size: 7rem;
+        padding-bottom: 0.8rem;
+      }
+
+      // Description
+      // ===========
+      > .header__personal-info--desc {
+        font-size: 4rem;
+      }
+    }
+  }
+
+}

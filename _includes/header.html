@@ -1,12 +1,22 @@
-<header role="apresentation">
-    <div class="person"></div>
-    <div class="name">
-        <h1>{{ site.name }}</h1>
-        <h2>{{ site.description }}</h2>
+<header class="header">
+
+  <div class="header__personal">
+    <!-- My photo -->
+    <img class="header__personal-photo" src="{{ "/assets/img/halfeld.jpg" | prepend: site.baseurl }}" alt="" />
+
+    <!-- My informations -->
+    <div class="header__personal-info">
+      <h1 class="header__personal-info--name">{{ site.title }}</h1>
+      <h2 class="header__personal-info--desc">{{ site.description }}</h2>
     </div>
-    <div class="info">
-        <p> <a href="http://github.com/Halfeld" target="_blank"> <span class="github">{% include /svg/github.svg %}</span> | github.com/Halfeld </a> </p>
-        <p> <a href="mailto:igorelmerico@hotmail.com" target="_blank"> <span class="email">{% include /svg/email.svg %}</span> | igorelmerico@hotmail.com </a> </p>
-    </div>
+  </div>
+
+  <!-- Menu -->
+  <nav class="header__nav">
+    <ul>
+      {% for link in site.links %}
+        <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>
- 

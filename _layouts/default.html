@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   {% include head.html %}
 
   <body>
-
+    {% include sprite.html %}
     {% include header.html %}
 
-    <div class="page-content">
+    <!-- Particles -->
+    <div class="stars" id="stars"></div>
+    {% if page.index %}
+      <article class="content">
         {{ content }}
-    </div>
+      </article>
+    {% else %}
+      {{ content }}
+    {% endif %}
 
-  </body>
-
+    {% include footer.html %}
     {% include analytics.html %}
+    <script src="{{ "/assets/js/main.min.js" | prepend: site.baseurl }}"></script>
+  </body>
 </html>

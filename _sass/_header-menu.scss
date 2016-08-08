@@ -1,0 +1,32 @@
+
+// Menu
+// ====
+.header__nav {
+  margin-top: 5rem;
+  width: 20vw;
+
+  // Link's list
+  > ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+    > li {
+      padding: 1rem;
+      border-radius: 0.4rem;
+
+      &:hover > a {
+        text-decoration: underline;
+      }
+
+      > a {
+        text-decoration: none;
+        font-size: 2rem;
+        color: inherit;
+        transition: all .3s linear;
+      }
+    }
+  }
+
+}

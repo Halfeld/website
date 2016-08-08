@@ -2,7 +2,7 @@
 
 Brazilian, single, 18 years old.  
 Rio de Janeiro, BR.  
-E-mail: <mailto:igorelmerico@hotmail.com>
+E-mail: <mailto:igor@devstacks.com.br>
 
 ### Education
 * High school Complete.

@@ -1,0 +1,58 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+html,
+body {
+  width: 100%;
+  font-family: $base-font-family;
+  box-sizing: border-box;
+  display: flex;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+
+  @media (max-width: 780px) {
+    font-size: 8px;
+  }
+
+  @media (max-width: 510px) {
+    font-size: 6px;
+  }
+}
+
+
+
+.stars {
+  position: absolute;
+  top: 0rem;
+  z-index: 0;
+  width: 100vw;
+  height: 70vh;
+  background-color: $color-black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+
+}
+// * {
+//   background-color: rgba(0,0,0, 0.1);
+// }

@@ -1,9 +1,16 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
-<url>
-<loc>http://halfeld.github.io/</loc>
-<lastmod>2016-01-11T02:48:08+00:00</lastmod>
-</url>
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for page in site.pages %}
+        <url>
+            <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
+        </url>
+    {% endfor %}
+    {% for post in site.posts %}
+        <url>
+            <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
+        </url>
+  {% endfor %}
 </urlset>

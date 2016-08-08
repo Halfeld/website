@@ -1,0 +1,24 @@
+---
+---
+
+@charset 'utf-8';
+
+// Our variables
+$base-font-family: 'Lora', Helvetica, Arial, sans-serif;
+// $color-base: #AC5869;
+// $color-base: #18452E;
+$color-base: #A2001D;
+$color-second: #591F2F;
+$color-black: #444;
+$color-gray: #F2F2F2;
+
+@import
+        'base',
+        'header',
+        'header-menu',
+        'content',
+        'articles',
+        'projects',
+        'footer',
+        'syntax-highlighting'
+;

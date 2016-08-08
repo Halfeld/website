@@ -1,0 +1,54 @@
+
+
+// Footer
+// ======
+.footer {
+  width: 100vw;
+  height: 5vh;
+  padding: 2rem;
+  background-color: $color-gray;
+  color: $color-black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+
+  // Link's contact
+  // ==============
+  > .footer__sources {
+    display: flex;
+    justify-content: center;
+
+    > a {
+      text-decoration: none;
+
+
+      // Opacity FX
+      // ==========
+      > .footer--github,
+      > .footer--email {
+        opacity: 0.6;
+        transition: opacity .3s linear;
+
+        &:hover {
+          opacity: 1.0
+        }
+      }
+
+
+      // Github and Email icons
+      // ======================
+      > .footer--github {
+        width: 4vw;
+        height: 4vh;
+        fill: $color-base;
+      }
+      > .footer--email {
+        width: 4vw;
+        height: 4vh;
+      }
+    }
+  }
+
+
+}

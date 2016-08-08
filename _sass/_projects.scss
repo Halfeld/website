@@ -1,0 +1,62 @@
+
+// Box
+// ===
+.projects {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: {
+    top: 2rem;
+    bottom: 2rem;
+  }
+
+  @media (max-width: 750px) {
+    width: 95vw;
+  }
+
+  // Project
+  // =======
+  > .project {
+    position: relative;
+    flex-basis: 28rem;
+    transition: .1s linear all;
+    text-decoration: none;
+    padding: 2rem;
+    color: #999;
+    box-shadow: 0rem 0rem 5rem $color-gray;
+    margin: {
+      top: 1rem;
+      bottom: 1rem;
+    }
+
+    &:hover,
+    &:active {
+      border-top: 2px solid $color-base;
+      color: $color-black;
+    }
+
+    > .project--title {
+      font-size: 3rem;
+    }
+
+    > .project--desc {
+      font-size: 1.5rem;
+    }
+
+    > .project--star {
+      position: absolute;
+      font-size: 2rem;
+      top: 2rem;
+      right: 2rem;
+
+      > .project--staricon {
+        width: 1vw;
+        height: 1vw;
+        // fill: $color-base;
+      }
+    }
+
+  }
+}
