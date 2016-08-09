@@ -26,6 +26,7 @@ E-mail: <mailto:igor@devstacks.com.br>
 * VueJS.
 * AngularJS.
 * jQuery.
+* React.
 * JavaScript.
 * TDD and BDD.
 * Atomic Design(basic).
