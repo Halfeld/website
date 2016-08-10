@@ -20,4 +20,7 @@ links:
   - title: Resume
     url: https://github.com/Halfeld/halfeld.github.io/blob/master/resume.md
 
+sass:
+  style: compressed
+
 exclude: ['package.json', 'src', 'node_modules']
