@@ -1,6 +1,6 @@
-/**
- * Reset some basic elements
- */
+
+// Reset some basic elements
+// =========================
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -9,10 +9,8 @@ dl, dd, ol, ul, figure {
 }
 
 
-
-/**
- * Basic styling
- */
+// Basic styling
+// =============
 html,
 body {
   width: 100%;
@@ -22,11 +20,7 @@ body {
   overflow-x: hidden;
   align-items: center;
   flex-direction: column;
-  font-size: 10px;
-
-  @media (max-width: 780px) {
-    font-size: 8px;
-  }
+  font-size: 8px;
 
   @media (max-width: 510px) {
     font-size: 6px;
@@ -34,7 +28,8 @@ body {
 }
 
 
-
+// Snow Fx
+// ======
 .stars {
   position: absolute;
   top: 0rem;
@@ -54,6 +49,10 @@ canvas {
   vertical-align: bottom;
 
 }
+
+// Only for development
+// ====================
+
 // * {
 //   background-color: rgba(0,0,0, 0.1);
 // }
