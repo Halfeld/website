@@ -9,6 +9,15 @@ dl, dd, ol, ul, figure {
 }
 
 
+// Nhé nhé nhé style
+// ==================
+* {
+  &::selection {
+    background-color: $color-base;
+    color: $color-gray;
+  }
+}
+
 // Basic styling
 // =============
 html,
