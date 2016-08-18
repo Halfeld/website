@@ -38,6 +38,7 @@
     // Article info
     // ============
     > .article__box {
+      position: relative;
       padding: 2rem;
 
       // Title
@@ -62,7 +63,15 @@
       // Language
       // ========
       > .article__box--lang {
+        position: absolute;
+        background-color: $color-base;
+        padding: 0.5rem;
+        top: 1rem;
+        right: -1.5rem;
+        color: $color-gray;
         font-size: 1.2rem;
+        opacity: 0.6;
+        transform: rotate(45deg);
       }
     }
   }

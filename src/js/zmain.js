@@ -1,7 +1,5 @@
 (function ($, particlesJS, window) {
-  particlesJS.load('stars', '/assets/particles.json', function () {
-    console.log('callback - particles.js config loaded')
-  })
+  particlesJS.load('stars', '/assets/particles.json')
 
   var template = function (res) {
     return '<a href="' + res.html_url + '" class="project">' +
