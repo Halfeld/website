@@ -1,61 +1,66 @@
 
-articles:
-  - title: RedisDB
-    desc: Starting with Redis
-    date: August 06, 2016
-    lang: Portuguese
-    url: https://blog.mywork.art.br/redisdb/
+- title: How works the Vue.js Reactive System
+  desc: Understading how works Vue.js Reactive System
+  date: August 22, 2016
+  lang: Portuguese
+  url: http://www.vuejs-brasil.com.br/como-funciona-a-reatividade-no-vue-js/
 
-  - title: Creating VueJs plugins
-    desc: Learning how to create Vue.js plugins
-    date: July 28, 2016
-    lang: Portuguese
-    url: http://www.vuejs-brasil.com.br/criando-plugins-para-o-vue-js/
+- title: RedisDB
+  desc: Starting with Redis
+  date: August 06, 2016
+  lang: Portuguese
+  url: https://blog.mywork.art.br/redisdb/
 
-  - title: Testing your VueJs aplications
-    desc: Learning how to test ours Vue.js aplications
-    date: July 18, 2016
-    lang: Portuguese
-    url: http://www.vuejs-brasil.com.br/testando-sua-aplicacao-vue-js/
+- title: Creating VueJs plugins
+  desc: Learning how to create Vue.js plugins
+  date: July 28, 2016
+  lang: Portuguese
+  url: http://www.vuejs-brasil.com.br/criando-plugins-para-o-vue-js/
 
-  - title: Starting with ReactJs
-    desc: Understading react and your concepts
-    date: July 13, 2016
-    lang: Portuguese
-    url: https://blog.mywork.art.br/come%C3%A7ando-com-reactjs/
+- title: Testing your VueJs aplications
+  desc: Learning how to test ours Vue.js aplications
+  date: July 18, 2016
+  lang: Portuguese
+  url: http://www.vuejs-brasil.com.br/testando-sua-aplicacao-vue-js/
 
-  - title: Directives on VueJs, Part 2
-    desc: Learning how to create directives on Vue.js
-    date: July 11, 2016
-    lang: Portuguese
-    url: http://www.vuejs-brasil.com.br/diretivas-no-vue-js-2/
+- title: Starting with ReactJs
+  desc: Understading react and your concepts
+  date: July 13, 2016
+  lang: Portuguese
+  url: https://blog.mywork.art.br/come%C3%A7ando-com-reactjs/
 
-  - title: Directives on VueJs, Part 1
-    desc: Learning how to create directives on Vue.js
-    date: July 07, 2016
-    lang: Portuguese
-    url: http://www.vuejs-brasil.com.br/diretivas-no-vue-js-1-2/
+- title: Directives on VueJs, Part 2
+  desc: Learning how to create directives on Vue.js
+  date: July 11, 2016
+  lang: Portuguese
+  url: http://www.vuejs-brasil.com.br/diretivas-no-vue-js-2/
 
-  - title: Using ES6 on Gulpfile
-    desc: Using ES6 features
-    date: June 16, 2016
-    lang: Portuguese
-    url: https://blog.mywork.art.br/usando-es6-com-gulpjs/
+- title: Directives on VueJs, Part 1
+  desc: Learning how to create directives on Vue.js
+  date: July 07, 2016
+  lang: Portuguese
+  url: http://www.vuejs-brasil.com.br/diretivas-no-vue-js-1-2/
 
-  - title: PostCSS
-    desc: Transforming Css with Javascript
-    date: June 05, 2016
-    lang: Portuguese
-    url: https://blog.mywork.art.br/postcss/
+- title: Using ES6 on Gulpfile
+  desc: Using ES6 features
+  date: June 16, 2016
+  lang: Portuguese
+  url: https://blog.mywork.art.br/usando-es6-com-gulpjs/
 
-  - title: Scaling NodeJs aplications
-    desc: Processes, Load Balancer and Reverse-Proxy
-    date: April 12, 2016
-    lang: Portuguese
-    url: https://blog.mywork.art.br/escalonando-aplica%C3%A7%C3%B5es-nodejs/
+- title: PostCSS
+  desc: Transforming Css with Javascript
+  date: June 05, 2016
+  lang: Portuguese
+  url: https://blog.mywork.art.br/postcss/
 
-  - title: Creating a CLI with Nodejs
-    desc: Leaning to create a CLI with Nodejs
-    date: April 03, 2016
-    lang: Portuguese
-    url: https://blog.mywork.art.br/criando-cli-com-nodejs/
+- title: Scaling NodeJs aplications
+  desc: Processes, Load Balancer and Reverse-Proxy
+  date: April 12, 2016
+  lang: Portuguese
+  url: https://blog.mywork.art.br/escalonando-aplica%C3%A7%C3%B5es-nodejs/
+
+- title: Creating a CLI with Nodejs
+  desc: Leaning to create a CLI with Nodejs
+  date: April 03, 2016
+  lang: Portuguese
+  url: https://blog.mywork.art.br/criando-cli-com-nodejs/
