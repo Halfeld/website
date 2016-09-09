@@ -3194,6 +3194,7 @@ window.$ === undefined && (window.$ = Zepto)
     'v-notes',
     'vue-component-menu',
     'react-cards',
+    'curso-vue-2',
     'angular-cards'
   ])
 
