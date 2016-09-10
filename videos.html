@@ -1,0 +1,14 @@
+---
+layout: videos
+title: Videos
+permalink: /videos/
+---
+
+<article class="videos">
+  {% for video in site.data.videos %}
+    <div class="video">
+      <h1 class="video--title">{{ video.title }}</h1>
+      <iframe class="video--iframe" height="315" src="https://www.youtube.com/embed/{{ video.id }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+  {% endfor %}
+</article>
