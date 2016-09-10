@@ -1,8 +1,4 @@
-(function ($, particlesJS, window) {
-
-  // Snow FX
-  // =======
-  particlesJS.load('stars', '/assets/particles.json')
+(function ($, window) {
 
   // Template for project list
   // =========================
@@ -69,7 +65,6 @@
   ])
 
   window.App = app
-})(Zepto, particlesJS, window)
+})(Zepto, window)
 
-var particlesJS = particlesJS || {}
 var Zepto = Zepto || {}
