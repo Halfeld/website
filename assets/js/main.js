@@ -1624,11 +1624,12 @@ window.$ === undefined && (window.$ = Zepto)
     }
   }
 
-  // Load projects
-  // =============
-  // owner {String}
-  // repos {Array}
   var app = {
+
+    // Load projects
+    // =============
+    // owner {String}
+    // repos {Array}
     loadProjects: function (owner, repos) {
       repos.forEach(function (el) {
         $.ajax({
@@ -1653,6 +1654,9 @@ window.$ === undefined && (window.$ = Zepto)
     'angular-cards'
   ])
 
+  app.loadProjects('MyWorkEnterprise', [
+    'myworkenterprise.github.io'
+  ])
   window.App = app
 })(Zepto, window)
 
