@@ -1,4 +1,10 @@
 
+- title: Render Functions on Vue.js 2.0
+  desc: Understanding what is Render Functions
+  date: September 15, 2016
+  lang: Portuguese
+  url: http://www.vuejs-brasil.com.br/render-functions-no-vue-js-2-0/
+
 - title: Big O Notation
   desc: Improving the performance/complexity of an algorithm
   date: September 10, 2016
@@ -18,7 +24,7 @@
   url: https://blog.mywork.art.br/javascript-design-patterns/
 
 - title: How works the Vue.js Reactive System
-  desc: Understading how works Vue.js Reactive System
+  desc: Understanding how works Vue.js Reactive System
   date: August 22, 2016
   lang: Portuguese
   url: http://www.vuejs-brasil.com.br/como-funciona-a-reatividade-no-vue-js/
@@ -42,7 +48,7 @@
   url: http://www.vuejs-brasil.com.br/testando-sua-aplicacao-vue-js/
 
 - title: Starting with ReactJs
-  desc: Understading react and your concepts
+  desc: Understanding react and your concepts
   date: July 13, 2016
   lang: Portuguese
   url: https://blog.mywork.art.br/come%C3%A7ando-com-reactjs/
@@ -78,7 +84,7 @@
   url: https://blog.mywork.art.br/escalonando-aplica%C3%A7%C3%B5es-nodejs/
 
 - title: Creating a CLI with Nodejs
-  desc: Leaning to create a CLI with Nodejs
+  desc: Learning to create a CLI with Nodejs
   date: April 03, 2016
   lang: Portuguese
   url: https://blog.mywork.art.br/criando-cli-com-nodejs/
