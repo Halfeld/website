@@ -10,8 +10,9 @@ E-mail: <mailto:igor@devstacks.com.br>
 
 ### Skills
 * Intermediary English.
++ Docker
 * Jekyll.
-* Ruby(basic).
++ Python.
 * Git.
 * PHP(intermediary).
 * MongoDB.
