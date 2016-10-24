@@ -40,7 +40,9 @@
       // ====
       > .header__personal-info--name {
         font-size: 7rem;
-        padding-bottom: 0.8rem;
+        padding: {
+          bottom: 0.8rem;
+        }
       }
 
       // Description

@@ -2,7 +2,7 @@
 title: Igor Luíz
 email: igor@devstacks.com.br
 description: > # this means to ignore newlines until "baseurl:"
-  Full Stack Javascript Developer
+  Full Stack Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://halfeld.github.io" # the base hostname & protocol for your site
 github_username:  halfeld

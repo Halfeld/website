@@ -1,0 +1,16 @@
+
+version: '2'
+
+
+services:
+  jekyll:
+    working_dir: /srv/jekyll
+    image: jekyll/jekyll
+    command: bundle exec jekyll s
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - '80:4000'
+  grunt:
+    build: .
+    command: grunt
