@@ -7,4 +7,4 @@ USER jekyll
 ADD . /srv/jekyll
 WORKDIR /srv/jekyll
 
-CMD ['npm', 'install', '&&', 'grunt']
+CMD npm install && grunt

@@ -13,4 +13,3 @@ services:
       - '80:4000'
   grunt:
     build: .
-    command: grunt
