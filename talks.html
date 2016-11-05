@@ -1,0 +1,15 @@
+---
+layout: page
+title: Talks
+permalink: /talks/
+---
+
+<article class="talks">
+  {% for talk in site.data.talks %}
+    <h1 class="talks--title">{{ talk.title }}</h1>
+    <div class="talks__talk">
+      <a href="{{ talk.slides }}">Slides</a>
+      <a href="{{ talk.source_code }}">Source code</a>
+    </div>
+  {% endfor %}
+</article>

@@ -1,0 +1,16 @@
+
+- title: Speech recognition API
+  date: September 3, 2016
+  slides: https://docs.google.com/presentation/d/11VFvLuPUkJSOY8SHZ5pTOlSyoxHIvBVbfTiHyQXD2OU/edit?usp=sharing
+  source_code: https://github.com/Halfeld/speech-recognition
+  from:
+    - place: GDG Caxias
+      link: http://gdgduquedecaxias.org/
+
+- title: Data binding
+  date: November 04, 2016
+  slides: https://docs.google.com/presentation/d/1DBVDQKOxVBDJVcT73pXuEc9498P6jb5lZ-qaNnnxNXg/edit?usp=sharing
+  source_code: https://github.com/Halfeld/angulado
+  from:
+    - place: Easycarros
+      link: https://easycarros.com/

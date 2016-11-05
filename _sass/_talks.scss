@@ -1,0 +1,35 @@
+
+
+.talks {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: {
+    top: 2rem;
+    bottom: 2rem;
+  }
+
+  .talks--title {
+    font-size: 2.3rem;
+    color: $color-black;
+    padding: 1rem;
+  }
+
+  .talks__talk {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    > a {
+      padding: 1rem;
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: $color-black;
+
+      &:hover {
+        border-left: 0.5rem solid $color-base;
+      }
+    }
+  }
+}
