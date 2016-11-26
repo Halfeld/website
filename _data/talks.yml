@@ -1,8 +1,8 @@
 
-- title: Speech recognition API
-  date: September 3, 2016
-  slides: https://docs.google.com/presentation/d/11VFvLuPUkJSOY8SHZ5pTOlSyoxHIvBVbfTiHyQXD2OU/edit?usp=sharing
-  source_code: https://github.com/Halfeld/speech-recognition
+- title: GraphQL
+  date: November 26, 2016
+  slides: https://docs.google.com/presentation/d/1Bp2Z13ZE4MicJ15v-k-APT5swb2gJcZgokIHuaX7QWg/edit?usp=sharing
+  source_code: https://github.com/Halfeld/graphql-example
   from:
     - place: GDG Caxias
       link: http://gdgduquedecaxias.org/
@@ -14,3 +14,11 @@
   from:
     - place: Easycarros
       link: https://easycarros.com/
+
+- title: Speech recognition API
+  date: September 3, 2016
+  slides: https://docs.google.com/presentation/d/11VFvLuPUkJSOY8SHZ5pTOlSyoxHIvBVbfTiHyQXD2OU/edit?usp=sharing
+  source_code: https://github.com/Halfeld/speech-recognition
+  from:
+    - place: GDG Caxias
+      link: http://gdgduquedecaxias.org/
