@@ -20,6 +20,7 @@ E-mail: <mailto:igor@devstacks.com.br>
 * MySQL.
 * NodeJS.
 * Express.
+* GraphQL.
 * Gulp.
 * Grunt.
 * Webpack.
@@ -35,6 +36,7 @@ E-mail: <mailto:igor@devstacks.com.br>
 * PostCSS.
 * SASS/COMPASS.
 * Stylus.
+* Less.
 * HTML5/CSS3.
 * Photoshop.
 * CorelDRAW and Inkscape.
