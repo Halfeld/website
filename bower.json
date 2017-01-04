@@ -1,0 +1,26 @@
+{
+  "name": "halfeld.github.io",
+  "description": "Full Stack Developer",
+  "main": "index.js",
+  "authors": [
+    "Igor Luíz - Halfeld"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "website",
+    "jekyll"
+  ],
+  "homepage": "https://github.com/Halfeld/halfeld.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "^1.1.6"
+  }
+}

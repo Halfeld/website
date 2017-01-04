@@ -1650,8 +1650,9 @@ window.$ === undefined && (window.$ = Zepto)
     'v-notes',
     'vue-component-menu',
     'react-cards',
-    'curso-vue-2',
-    'angular-cards'
+    'vue-2-course',
+    'angular-cards',
+    'recordall'
   ])
 
   app.loadProjects('MyWorkEnterprise', [
