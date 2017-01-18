@@ -10,23 +10,24 @@ E-mail: <mailto:igor@devstacks.com.br>
 
 ### Skills
 * Intermediary English.
-+ Docker
+* Docker.
 * Jekyll.
-+ Python.
+* Python.
 * Git.
 * PHP(intermediary).
 * MongoDB.
 * Redis.
 * MySQL.
-* NodeJS.
-* Express.
+* Node.js.
+* Express.js.
+* Hapi.js
 * GraphQL.
 * Gulp.
 * Grunt.
 * Webpack.
 * Ionic.
-* VueJS.
-* AngularJS.
+* Vue.js.
+* Angular.js.
 * jQuery.
 * React.
 * JavaScript.
@@ -41,7 +42,7 @@ E-mail: <mailto:igor@devstacks.com.br>
 * Photoshop.
 * CorelDRAW and Inkscape.
 * Installation, maintenance and computer networks.
-* Microsoft Office
-* Libre Office
+* Microsoft Office.
+* Libre Office.
 * Advanced computer(Linux).
 * Basic computer(Windows).
