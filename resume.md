@@ -1,48 +1,51 @@
 # Igor Luíz Carneiro de Oliveira
 
 Brazilian, single, 18 years old.  
-Rio de Janeiro, BR.  
+Pinheiros - Sao Paulo, BR.  
 E-mail: <mailto:igor@devstacks.com.br>
 
-### Education
-* High school Complete.
-* Elementary School Complete.
+### Expirences
+2016/11 - until now - Full Stack Developer - https://easycarros.com/
 
 ### Skills
-* Intermediary English.
-* Docker.
-* Jekyll.
-* Python.
-* Git.
-* PHP(intermediary).
-* MongoDB.
-* Redis.
-* MySQL.
-* Node.js.
-* Express.js.
-* Hapi.js
-* GraphQL.
-* Gulp.
-* Grunt.
-* Webpack.
-* Ionic.
-* Vue.js.
-* Angular.js.
-* jQuery.
-* React.
-* JavaScript.
-* TDD and BDD.
-* Atomic Design(basic).
-* BEM.
-* PostCSS.
-* SASS/COMPASS.
-* Stylus.
-* Less.
-* HTML5/CSS3.
-* Photoshop.
-* CorelDRAW and Inkscape.
-* Installation, maintenance and computer networks.
-* Microsoft Office.
-* Libre Office.
-* Advanced computer(Linux).
-* Basic computer(Windows).
+
+#### Back-end
+  * Docker.
+  * Node.js.
+  * Python (intermediary).
+  * PHP (intermediary).
+  * Ruby (basic).
+  * MongoDB.
+  * Redis.
+  * MySQL.
+  * GraphQL.
+  * REST APIs
+
+#### Front-end
+  * JavaScript.
+  * HTML/CSS.
+  * Task runners.
+  * Module bundlers.
+  * Vue.js.
+  * Angular.js.
+  * jQuery. :P
+  * React/Redux/Flux.
+  * Pre and post processors.
+  * Template engines
+  * Atomic Design.
+  * BEM.
+  * Static generators
+
+#### Mobile
+  * Ionic.
+  * React Native.
+
+#### General
+  * Intermediary English.
+  * Git.
+  * TDD and BDD.
+  * Design Patterns.
+
+#### UX/UI
+  * Photoshop.
+  * CorelDRAW and Inkscape.
