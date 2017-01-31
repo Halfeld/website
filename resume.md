@@ -31,10 +31,10 @@ E-mail: <mailto:igor@devstacks.com.br>
   * jQuery. :P
   * React/Redux/Flux.
   * Pre and post processors.
-  * Template engines
+  * Template engines.
   * Atomic Design.
   * BEM.
-  * Static generators
+  * Static generators.
 
 #### Mobile
   * Ionic.
