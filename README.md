@@ -1,6 +1,6 @@
 # My awesome website
 
-> Made with Jekyll and Grunt
+> Made with Jekyll, Grunt and Docker
 
 ## Setup
 ```
