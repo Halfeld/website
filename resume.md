@@ -4,9 +4,10 @@ Brazilian, single, 18 years old.<br>
 Pinheiros - Sao Paulo, BR.<br>
 E-mail: [igor@devstacks.com.br](mailto:igor@devstacks.com.br)
 
-## Expirences
+## Experiences
 
-2016/11 - 2017/03 - Full Stack Developer - <https://easycarros.com/>
+2017/03 - Util now - Full Stack Developer - <http://horizonfour.com.br/>  
+2016/11 - 2017/03 - Full Stack Developer - <https://easycarros.com/>  
 
 ## Skills
 
