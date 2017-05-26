@@ -1,4 +1,12 @@
 
+- title: Architecting Vue.js applications
+  date: May 25, 2016
+  slides: https://docs.google.com/presentation/d/1HeD-dm7iqyFfZS0vFGzdaNVjmKdF58TwSslOsDGmGF4/edit?usp=sharing
+  source_code: https://github.com/Halfeld/vue-architecting-example
+  from:
+    - place: Moip
+      link: https://moip.com.br/
+
 - title: GraphQL
   date: November 26, 2016
   slides: https://docs.google.com/presentation/d/1Bp2Z13ZE4MicJ15v-k-APT5swb2gJcZgokIHuaX7QWg/edit?usp=sharing
