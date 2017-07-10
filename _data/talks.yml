@@ -1,4 +1,12 @@
 
+- title: Demystifying the web
+  date: July 07, 2016
+  slides: https://docs.google.com/presentation/d/1lQTgjlpUXXfW60txXwl5Zopgt9A0-E-Pe-FFzFPJBGA/edit?usp=sharing
+  source_code: https://github.com/anabastos/gatil-ascii-api
+  from:
+    - place: Purple99
+      link: http://purple99.com/
+
 - title: Architecting Vue.js applications
   date: May 25, 2016
   slides: https://docs.google.com/presentation/d/1HeD-dm7iqyFfZS0vFGzdaNVjmKdF58TwSslOsDGmGF4/edit?usp=sharing
