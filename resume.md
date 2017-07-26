@@ -1,12 +1,14 @@
 # Igor Luíz Carneiro de Oliveira
 
-Brazilian, single, 18 years old.<br>
+Brazilian, single, 19 years old.<br>
 Pinheiros - Sao Paulo, BR.<br>
 E-mail: [igor@devstacks.com.br](mailto:igor@devstacks.com.br)
 
 ## Experiences
 
-2017/03 - Util now - Full Stack Developer - <http://horizonfour.com.br/>  
+2017/07 - Util now - Technical Leader - <http://horizonfour.com.br/>  
+2017/03 - 2017/07 - Full Stack Developer - <http://horizonfour.com.br/>  
+2017/03 - 2017/07 - Full Stack Developer - <http://moveleiros.com.br/>  
 2016/11 - 2017/03 - Full Stack Developer - <https://easycarros.com/>  
 
 ## Skills
@@ -15,8 +17,9 @@ E-mail: [igor@devstacks.com.br](mailto:igor@devstacks.com.br)
 
 - Docker.
 - Node.js.
-- Python (intermediary).
+- Python.
 - PHP (intermediary).
+- Go (basic).
 - Ruby (basic).
 - MongoDB.
 - Redis.
