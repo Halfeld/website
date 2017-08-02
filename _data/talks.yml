@@ -1,4 +1,20 @@
 
+- title: Server side rendering
+  date: July 31, 2016
+  slides: https://docs.google.com/presentation/d/1bhjXAxxmI_4UClAcwYCJbKWSiJJ_afyf3ORLWbxLAuA/edit?usp=sharing
+  source_code: https://github.com/Halfeld/vue-architecting-example
+  from:
+    - place: 7COMm
+      link: https://www.7comm.com.br/
+
+- title: Nuxt.js
+  date: July 19, 2016
+  slides: https://docs.google.com/presentation/d/1Hw5WaNYiBl19yUdlgEnjSKgNcJCgGUbFAFt-gTefKzw/edit?usp=sharing
+  source_code: https://github.com/Halfeld/vue-architecting-example
+  from:
+    - place: iMasters
+      link: https://setemasters.imasters.com.br/edicoes/vue/
+
 - title: Vue.js The Progressive Framework
   date: July 13, 2016
   slides: https://docs.google.com/presentation/d/1VZPKceL9gTmlee4D4uHOVohSut-rHDqemRljw132jPk/edit?usp=sharing
