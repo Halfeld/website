@@ -1,4 +1,12 @@
 
+- title: Code splitting with Vue.js and Webpack
+  date: Oct 10, 2016
+  slides: https://docs.google.com/presentation/d/1CuutbEvVxILvh1J8B86BQCz4R4EpR0PVxXv9pnJp8mk/edit?usp=sharing
+  source_code: https://github.com/Halfeld/code-splitting-vuejs-talk
+  from:
+    - place: Accenture
+      link: https://www.accenture.com/
+
 - title: Server side rendering
   date: July 31, 2016
   slides: https://docs.google.com/presentation/d/1bhjXAxxmI_4UClAcwYCJbKWSiJJ_afyf3ORLWbxLAuA/edit?usp=sharing
