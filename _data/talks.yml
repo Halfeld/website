@@ -1,4 +1,12 @@
 
+- title: Web development
+  date: Oct 11, 2016
+  slides: https://docs.google.com/presentation/d/1KsSCL7Ctom9udE95kTRfheVZSzUPlIzAJ9LHBp-lafU/edit?usp=sharing
+  source_code: https://github.com/Halfeld/demotop
+  from:
+    - place: Anhembi Morumbi
+      link: http://portal.anhembi.br/
+
 - title: Code splitting with Vue.js and Webpack
   date: Oct 10, 2016
   slides: https://docs.google.com/presentation/d/1CuutbEvVxILvh1J8B86BQCz4R4EpR0PVxXv9pnJp8mk/edit?usp=sharing
