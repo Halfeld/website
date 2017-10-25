@@ -6,7 +6,8 @@ E-mail: [igor@devstacks.com.br](mailto:igor@devstacks.com.br)
 
 ## Experiences
 
-2017/07 - Util now - Technical Leader - <http://horizonfour.com.br/>  
+2017/10 - Util now - Senior Front-end Engineer - <http://stored.com.br/>  
+2017/07 - 2017/10 - Technical Leader - <http://horizonfour.com.br/>  
 2017/03 - 2017/07 - Full Stack Developer - <http://horizonfour.com.br/>  
 2017/03 - 2017/07 - Full Stack Developer - <http://moveleiros.com.br/>  
 2016/11 - 2017/03 - Full Stack Developer - <https://easycarros.com/>  
