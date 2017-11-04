@@ -1,4 +1,12 @@
 
+- title: Vue.js Reactive System
+  date: Nov 04, 2016
+  slides: https://docs.google.com/presentation/d/1wNl8vh5qUldkQ01aWRT-av6pw4MAHInEzh0ngNVsDGg/edit?usp=sharing
+  source_code: https://github.com/halfeld/attached
+  from:
+    - place: Google Developer Group Campinas
+      link: https://gdg-campinas.github.io/
+
 - title: Web development
   date: Oct 11, 2016
   slides: https://docs.google.com/presentation/d/1KsSCL7Ctom9udE95kTRfheVZSzUPlIzAJ9LHBp-lafU/edit?usp=sharing
