@@ -1,4 +1,10 @@
 
+- title: React render props
+  desc: Understanding how this pattern works
+  date: December 10, 2017
+  lang: Portuguese
+  url: https://medium.com/@stored/react-render-props-1abd2a04b020
+
 - title: Vue.js Ajax Patterns
   desc: Understanding how to do ajax on the right way on Vue.js
   date: November 06, 2017
