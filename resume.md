@@ -22,10 +22,10 @@ E-mail: [igor@devstacks.com.br](mailto:igor@devstacks.com.br)
 ### Back-end
 
 - Docker.
+- Go.
 - Node.js.
 - Python.
 - PHP (intermediary).
-- Go (basic).
 - Ruby (basic).
 - MongoDB.
 - Redis.
