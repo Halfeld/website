@@ -1,4 +1,12 @@
 
+- title: Node.js File System Module
+  date: Nov 24, 2018
+  slides: https://docs.google.com/presentation/d/1gLCDXnnARMzecjggohiYrpQBg5nM8Mu4Zbc-2Y90PYA/edit?usp=sharing
+  source_code: https://github.com/Halfeld/nodebr-meetup-fs-demo
+  from:
+    - place: Pagar.me
+      link: https://pagar.me/
+
 - title: Vue.js Reactive System
   date: Nov 04, 2016
   slides: https://docs.google.com/presentation/d/1wNl8vh5qUldkQ01aWRT-av6pw4MAHInEzh0ngNVsDGg/edit?usp=sharing
