@@ -1,6 +1,6 @@
 # Igor Luíz Carneiro de Oliveira
 
-Brazilian, married, 19 years old.<br>
+Brazilian, single, 19 years old.<br>
 Pinheiros - Sao Paulo, BR.<br>
 E-mail: [igor@devstacks.com.br](mailto:igor@devstacks.com.br)
 
