@@ -1,4 +1,4 @@
-# Igor Luíiz Carneiro de Oliveira
+# Igor Luiz Carneiro de Oliveira
 
 Brazilian, single, 19 years old.<br>
 Sao Paulo - SP, Brazil.<br>
