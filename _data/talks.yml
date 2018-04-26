@@ -1,4 +1,12 @@
 
+- title: Server Side Rendering with Vue.js
+  date: April 26, 2018
+  slides: https://docs.google.com/presentation/d/1oX1WcAkKptU_mF-AB0QZewukNnb8Ej7bpGnoPn9yDZs/edit?usp=sharing
+  source_code: https://github.com/Halfeld/server-side-rendering-with-vue-demos
+  from:
+    - place: Lambda3
+      link: https://www.lambda3.com.br/
+
 - title: Node.js File System Module
   date: Nov 24, 2018
   slides: https://docs.google.com/presentation/d/1gLCDXnnARMzecjggohiYrpQBg5nM8Mu4Zbc-2Y90PYA/edit?usp=sharing
