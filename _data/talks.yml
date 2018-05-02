@@ -1,4 +1,12 @@
 
+- title: React VR
+  date: May 02, 2018
+  slides: https://docs.google.com/presentation/d/1ELGGdlIWatpTvpbv4hL5ceoc6rVM1PUIzsf-Q8Osm-I/edit?usp=sharing
+  source_code: https://github.com/Halfeld/react-vr-f8-meetup
+  from:
+    - place: iFood
+      link: https://www.ifood.com.br/
+
 - title: Server Side Rendering with Vue.js
   date: April 26, 2018
   slides: https://docs.google.com/presentation/d/1oX1WcAkKptU_mF-AB0QZewukNnb8Ej7bpGnoPn9yDZs/edit?usp=sharing
