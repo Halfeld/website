@@ -63,12 +63,10 @@
     'react-cards',
     'vue-2-course',
     'angular-cards',
-    'recordall'
+    'recordall',
+    'attached'
   ])
 
-  app.loadProjects('MyWorkEnterprise', [
-    'myworkenterprise.github.io'
-  ])
   window.App = app
 })(Zepto, window)
 
