@@ -46,7 +46,8 @@ body {
   z-index: 0;
   width: 100vw;
   height: 70vh;
-  background-image: url('/assets/img/banner.png');
+  background-image: url('/assets/img/banner4.jpg');
+  -webkit-filter: blur(6px);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;

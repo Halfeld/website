@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: center;
 
-
   // My information, e.g. Name and Description
   // =========================================
   > .header__personal {
@@ -39,16 +38,18 @@
       // Name
       // ====
       > .header__personal-info--name {
-        font-size: 7rem;
+        font-size: 4.5rem;
+        text-transform: uppercase;
         padding: {
-          bottom: 0.8rem;
+          bottom: 0.2rem;
         }
       }
 
       // Description
       // ===========
       > .header__personal-info--desc {
-        font-size: 4rem;
+        font-size: 3rem;
+        font-weight: 400;
       }
     }
   }
