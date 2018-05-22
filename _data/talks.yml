@@ -1,4 +1,12 @@
 
+- title: Vue.js like a jQuery
+  date: May 26, 2018
+  slides: https://docs.google.com/presentation/d/1OD1vBp7dS1CCC64Rs4ki9dnua2Axf4lf3ODWDrdDwHY/edit?usp=sharing
+  source_code: https://github.com/Halfeld/vuejs-like-a-jquery
+  from:
+    - place: CIC - Centro de Integração da Cidadania
+      link: http://www.cidadao.sp.gov.br/servico.php?serv=305
+
 - title: React VR
   date: May 02, 2018
   slides: https://docs.google.com/presentation/d/1ELGGdlIWatpTvpbv4hL5ceoc6rVM1PUIzsf-Q8Osm-I/edit?usp=sharing
