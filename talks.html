@@ -4,12 +4,15 @@ permalink: "/talks/"
 layout: page
 ---
 
-<article class="talks">
+<article class="articles">
   {% for talk in site.data.talks %}
-    <h1 class="talks--title">{{ talk.title }}</h1>
-    <div class="talks__talk">
-      <a href="{{ talk.slides }}">Slides</a>
-      <a href="{{ talk.source_code }}">Source code</a>
-    </div>
+    <a href="{{ article.url }}" target="blank" class="article">
+      <div class="article__box">
+        <h1 class="article__box--title">{{ talk.title }}</h1>
+        <h2 class="article__box--desc">{{ talk.from.place }}</h2>
+        <span class="article__box--date">{{ talk.date | upcase }}</span><br>
+        <span class="article__box--lang">{{ talk.lang }}</span>
+      </div>
+    </a>
   {% endfor %}
 </article>
