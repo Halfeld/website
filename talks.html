@@ -6,7 +6,7 @@ layout: page
 
 <article class="articles">
   {% for talk in site.data.talks %}
-    <a href="{{ article.url }}" target="blank" class="article">
+    <a href="{{ article.source_code }}" target="blank" class="article">
       <div class="article__box">
         <h1 class="article__box--title">{{ talk.title }}</h1>
         <h2 class="article__box--desc">{{ talk.from.place }}</h2>
