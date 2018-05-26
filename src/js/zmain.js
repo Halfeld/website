@@ -60,6 +60,7 @@
   app.loadProjects('Halfeld', [
     'v-notes',
     'vue-component-menu',
+    'slidefy',
     'react-cards',
     'vue-2-course',
     'angular-cards',
