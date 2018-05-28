@@ -1,112 +1,135 @@
 
+- title: Vue.js like a jQuery
+  date: May 26, 2018
+  slides: https://docs.google.com/presentation/d/1OD1vBp7dS1CCC64Rs4ki9dnua2Axf4lf3ODWDrdDwHY/edit?usp=sharing
+  source_code: https://github.com/Halfeld/vuejs-like-a-jquery
+  lang: Portuguese
+  from:
+    place: CIC - Centro de Integração da Cidadania
+    link: http://www.cidadao.sp.gov.br/servico.php?serv=305
+
 - title: React VR
   date: May 02, 2018
   slides: https://docs.google.com/presentation/d/1ELGGdlIWatpTvpbv4hL5ceoc6rVM1PUIzsf-Q8Osm-I/edit?usp=sharing
   source_code: https://github.com/Halfeld/react-vr-f8-meetup
+  lang: Portuguese
   from:
-    - place: iFood
-      link: https://www.ifood.com.br/
+    place: iFood
+    link: https://www.ifood.com.br/
 
 - title: Server Side Rendering with Vue.js
   date: April 26, 2018
   slides: https://docs.google.com/presentation/d/1oX1WcAkKptU_mF-AB0QZewukNnb8Ej7bpGnoPn9yDZs/edit?usp=sharing
   source_code: https://github.com/Halfeld/server-side-rendering-with-vue-demos
+  lang: Portuguese
   from:
-    - place: Lambda3
-      link: https://www.lambda3.com.br/
+    place: Lambda3
+    link: https://www.lambda3.com.br/
 
 - title: Node.js File System Module
   date: Nov 24, 2018
   slides: https://docs.google.com/presentation/d/1gLCDXnnARMzecjggohiYrpQBg5nM8Mu4Zbc-2Y90PYA/edit?usp=sharing
   source_code: https://github.com/Halfeld/nodebr-meetup-fs-demo
+  lang: Portuguese
   from:
-    - place: Pagar.me
-      link: https://pagar.me/
+    place: Pagar.me
+    link: https://pagar.me/
 
 - title: Vue.js Reactive System
   date: Nov 04, 2016
   slides: https://docs.google.com/presentation/d/1wNl8vh5qUldkQ01aWRT-av6pw4MAHInEzh0ngNVsDGg/edit?usp=sharing
   source_code: https://github.com/halfeld/attached
+  lang: Portuguese
   from:
-    - place: Google Developer Group Campinas
-      link: https://gdg-campinas.github.io/
+    place: Google Developer Group Campinas
+    link: https://gdg-campinas.github.io/
 
 - title: Web development
   date: Oct 11, 2016
   slides: https://docs.google.com/presentation/d/1KsSCL7Ctom9udE95kTRfheVZSzUPlIzAJ9LHBp-lafU/edit?usp=sharing
   source_code: https://github.com/Halfeld/demotop
+  lang: Portuguese
   from:
-    - place: Anhembi Morumbi
-      link: http://portal.anhembi.br/
+    place: Anhembi Morumbi
+    link: http://portal.anhembi.br/
 
 - title: Code splitting with Vue.js and Webpack
   date: Oct 10, 2016
   slides: https://docs.google.com/presentation/d/1CuutbEvVxILvh1J8B86BQCz4R4EpR0PVxXv9pnJp8mk/edit?usp=sharing
   source_code: https://github.com/Halfeld/code-splitting-vuejs-talk
+  lang: Portuguese
   from:
-    - place: Accenture
-      link: https://www.accenture.com/
+    place: Accenture
+    link: https://www.accenture.com/
 
 - title: Server side rendering
   date: July 31, 2016
   slides: https://docs.google.com/presentation/d/1bhjXAxxmI_4UClAcwYCJbKWSiJJ_afyf3ORLWbxLAuA/edit?usp=sharing
   source_code: https://github.com/Halfeld/vue-architecting-example
+  lang: Portuguese
   from:
-    - place: 7COMm
-      link: https://www.7comm.com.br/
+    place: 7COMm
+    link: https://www.7comm.com.br/
 
 - title: Nuxt.js
   date: July 19, 2016
   slides: https://docs.google.com/presentation/d/1Hw5WaNYiBl19yUdlgEnjSKgNcJCgGUbFAFt-gTefKzw/edit?usp=sharing
   source_code: https://github.com/Halfeld/vue-architecting-example
+  lang: Portuguese
   from:
-    - place: iMasters
-      link: https://setemasters.imasters.com.br/edicoes/vue/
+    place: iMasters
+    link: https://setemasters.imasters.com.br/edicoes/vue/
 
 - title: Vue.js The Progressive Framework
   date: July 13, 2016
   slides: https://docs.google.com/presentation/d/1VZPKceL9gTmlee4D4uHOVohSut-rHDqemRljw132jPk/edit?usp=sharing
   source_code: https://github.com/Halfeld/castelo-meetup
+  lang: Portuguese
   from:
-    - place: Castelo Creative Space
-      link: http://castelocreativespace.com.br/
+    place: Castelo Creative Space
+    link: http://castelocreativespace.com.br/
 
 - title: Demystifying the web
   date: July 07, 2016
   slides: https://docs.google.com/presentation/d/1lQTgjlpUXXfW60txXwl5Zopgt9A0-E-Pe-FFzFPJBGA/edit?usp=sharing
   source_code: https://github.com/anabastos/gatil-ascii-api
+  lang: Portuguese
   from:
-    - place: Purple99
-      link: http://purple99.com/
+    place: Purple99
+    link: http://purple99.com/
 
 - title: Architecting Vue.js applications
   date: May 25, 2016
   slides: https://docs.google.com/presentation/d/1HeD-dm7iqyFfZS0vFGzdaNVjmKdF58TwSslOsDGmGF4/edit?usp=sharing
   source_code: https://github.com/Halfeld/vue-architecting-example
+  lang: Portuguese
   from:
-    - place: Moip
-      link: https://moip.com.br/
+    place: Moip
+    link: https://moip.com.br/
 
 - title: GraphQL
   date: November 26, 2016
   slides: https://docs.google.com/presentation/d/1Bp2Z13ZE4MicJ15v-k-APT5swb2gJcZgokIHuaX7QWg/edit?usp=sharing
   source_code: https://github.com/Halfeld/graphql-example
+  lang: Portuguese
   from:
-    - place: GDG Caxias
-      link: http://gdgduquedecaxias.org/
+    place: GDG Caxias
+    link: http://gdgduquedecaxias.org/
 
 - title: Data binding
   date: November 04, 2016
   slides: https://docs.google.com/presentation/d/1DBVDQKOxVBDJVcT73pXuEc9498P6jb5lZ-qaNnnxNXg/edit?usp=sharing
   source_code: https://github.com/Halfeld/angulado
+  lang: Portuguese
   from:
-    - place: Easycarros
-      link: https://easycarros.com/
+    place: Easycarros
+    link: https://easycarros.com/
 
 - title: Speech recognition API
   date: September 3, 2016
   slides: https://docs.google.com/presentation/d/11VFvLuPUkJSOY8SHZ5pTOlSyoxHIvBVbfTiHyQXD2OU/edit?usp=sharing
   source_code: https://github.com/Halfeld/speech-recognition
+  lang: Portuguese
   from:
-    - place: GDG Caxias
-      link: http://gdgduquedecaxias.org/
+    place: GDG Caxias
+    link: http://gdgduquedecaxias.org/
