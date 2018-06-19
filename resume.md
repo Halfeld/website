@@ -18,7 +18,7 @@ E-mail: [hello@igorluiz.me](mailto:hello@igorluiz.me)
 
 - I Wrote some [articles](http://igorluiz.me/articles/) and [videos](http://igorluiz.me/videos/)
 - I Co-organizer on [Vue.js meetup SP](https://www.meetup.com/VueJS-SP/) and [JSSP](https://www.meetup.com/Javascript-SP/).
-- I Organizer the [Vue.js summit](https://vuejssummit.com/).
+- I'm Organizer on [Vue.js summit](https://vuejssummit.com/).
 - I'm Host on a podcast called [PairProgramming](https://soundcloud.com/user-663337641).
 
 ### Back-end
