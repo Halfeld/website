@@ -1,3 +1,11 @@
+- title: React 360
+  date: July 21, 2018
+  slides: https://docs.google.com/presentation/d/1fRfuVDZHot7G-reWIeLuemdZ4Rpj0ooq-TJuPTLgCt8/edit?usp=sharing
+  source_code: https://github.com/IgorHalfeld/react-360-tdc-talk
+  lang: Portuguese
+  from:
+    place: The Developers Conference
+    link: http://www.thedevelopersconference.com.br/tdc/2018/saopaulo/trilha-javascript
 
 - title: React Tour
   date: July 07, 2018
