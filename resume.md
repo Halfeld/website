@@ -6,7 +6,7 @@ E-mail: [hello@igorluiz.me](mailto:hello@igorluiz.me)
 
 ## Experiences
 
-2018/07 - Until now - Senior Software Engineer - <http://stored.com.br/>  
+2018/07 - Until now - Senior Software Engineer - <https://midianoalvo.com.br/>  
 2017/10 - 2018/07 - Senior Front-end Engineer - <http://stored.com.br/>  
 2017/07 - 2017/10 - Technical Leader - <http://horizonfour.com.br/>  
 2017/03 - 2017/07 - Full Stack Developer - <http://horizonfour.com.br/>  
