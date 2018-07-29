@@ -11,7 +11,7 @@ collections:
 email: igor@devstacks.com.br
 description: 'Full Stack Developer'
 baseurl: ''
-url: http://halfeld.github.io
+url: http://igorhalfeld.github.io
 github_username: halfeld
 markdown: kramdown
 links:
