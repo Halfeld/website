@@ -9,10 +9,10 @@ collections:
     title: Uploads
     output: true
 email: igor@devstacks.com.br
-description: 'Full Stack Developer'
+description: 'Software Consultant'
 baseurl: ''
 url: http://igorhalfeld.github.io
-github_username: halfeld
+github_username: igorhalfeld
 markdown: kramdown
 links:
 - title: About
