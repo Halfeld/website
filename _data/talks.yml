@@ -1,3 +1,12 @@
+- title: Vue.js Baby Steps
+  date: Aug 17, 2018
+  slides: https://pt.slideshare.net/IgorLuz3/vuejs-baby-steps-115300251/IgorLuz3/vuejs-baby-steps-115300251
+  source_code: https://github.com/IgorHalfeld/dotnet-hangout-demo
+  lang: Portuguese
+  from:
+    place: Canal .Net
+    link: https://www.youtube.com/channel/UCIahKJr2Q50Sprk5ztPGnVg
+
 - title: Create SPA with Vue.js
   date: July 28, 2018
   slides:
