@@ -1,6 +1,15 @@
+- title: NativeScript-Vue
+  date: Nov 10, 2018
+  slides: https://speakerdeck.com/igorhalfeld/nativescript-vue
+  source_code: https://github.com/IgorHalfeld/fatec-dev-day
+  lang: Portuguese
+  from:
+    place: Fatec Taquaritingua
+    link: https://fatecdevday.com.br
+
 - title: Vue.js Baby Steps
   date: Aug 17, 2018
-  slides: https://pt.slideshare.net/IgorLuz3/vuejs-baby-steps-115300251/IgorLuz3/vuejs-baby-steps-115300251
+  slides: https://speakerdeck.com/igorhalfeld/vue-dot-js-baby-steps-48f88c59-f228-4773-9ea7-9974425347e0
   source_code: https://github.com/IgorHalfeld/dotnet-hangout-demo
   lang: Portuguese
   from:
