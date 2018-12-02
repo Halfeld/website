@@ -1,3 +1,12 @@
+- title: Graphql, Front-end queries made easy
+  date: Dec 01, 2018
+  slides: https://speakerdeck.com/igorhalfeld/graphql-front-queries-made-easy
+  source_code: https://github.com/IgorHalfeld/graphql-front-in-floripa-demo
+  lang: Portuguese
+  from:
+    place: Front in Floripa
+    link: http://frontinfloripa.com.br
+
 - title: Vue Native
   date: Nov 24, 2018
   slides: https://speakerdeck.com/igorhalfeld/wtf-is-vue-native
