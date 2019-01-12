@@ -1,3 +1,21 @@
+- title: The Vue like you've never seen
+  date: Jan 08, 2019
+  slides: https://speakerdeck.com/igorhalfeld/the-vue-like-youve-never-seen
+  source_code: https://github.com/IgorHalfeld/live-glaucia-lemos
+  lang: Portuguese
+  from:
+    place: Glaucia Lemos Channel
+    link: https://www.youtube.com/watch?v=g8xo4EeK1ko
+
+- title: Vue rewind 2018
+  date: Dec 13, 2018
+  slides: https://speakerdeck.com/igorhalfeld/vue-rewind-2018
+  source_code: https://speakerdeck.com/igorhalfeld/vue-rewind-2018
+  lang: Portuguese
+  from:
+    place: Front-end SP Meetup
+    link: https://www.meetup.com/Frontend-Dev-SP-Meetup/events/256943017/
+
 - title: NativeScript-Vue
   date: Nov 10, 2018
   slides: https://speakerdeck.com/igorhalfeld/nativescript-vue
