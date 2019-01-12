@@ -16,6 +16,24 @@
     place: Front-end SP Meetup
     link: https://www.meetup.com/Frontend-Dev-SP-Meetup/events/256943017/
 
+- title: Graphql, Front-end queries made easy
+  date: Dec 01, 2018
+  slides: https://speakerdeck.com/igorhalfeld/graphql-front-queries-made-easy
+  source_code: https://github.com/IgorHalfeld/graphql-front-in-floripa-demo
+  lang: Portuguese
+  from:
+    place: Front in Floripa
+    link: http://frontinfloripa.com.br
+
+- title: Vue Native
+  date: Nov 24, 2018
+  slides: https://speakerdeck.com/igorhalfeld/wtf-is-vue-native
+  source_code: https://github.com/IgorHalfeld/devfest-campinas-demo-app
+  lang: Portuguese
+  from:
+    place: DevFest Campinas
+    link: https://gdg-campinas.github.io/devfest/
+
 - title: NativeScript-Vue
   date: Nov 10, 2018
   slides: https://speakerdeck.com/igorhalfeld/nativescript-vue
