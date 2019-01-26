@@ -10,12 +10,21 @@ E-mail: [hello@igorluiz.me](mailto:hello@igorluiz.me)
 I decided to leave my job at Stored and switch to a job where I had iteration with people and also have contact with Back-end again.
 With technologies like Node.js, MongoDB, Angular, Vue.js
 
+2017/04 - Until now - Vue.js Summit - <https://vuejssummit.com>
+With the intention of bringing VueConf's experiences to Latin America, the Vue.js Community and I decided to organize the largest conference of Vue.js and we call Vue.js Summit.
+
 2017/10 - 2018/07 - Senior Front-end Engineer - <http://stored.com.br/>  
 At Stored, I started working Full Time with Vue.js and I had my first experience with remote work and with that I came to the conclusion and I really enjoy iterating with people.
 
 2017/07 - 2017/10 - Technical Leader - <http://horizonfour.com.br/>  
 Still in the Horizon Four, I had a bigger challenge, managing a team with the technologies I mentioned before, and linking time with my work at Furniture.
 Yes, here I learned a lot about people and how they work
+
+2017/08 - Until now - Community Manager JavaScript São Paulo - <https://www.meetup.com/Javascript-SP/>  
+Nonprofit work to organize the JavaScript developer community of São Paulo.
+
+2017/07 - Until now - Community Manager Vue.js São Paulo - <https://www.meetup.com/VueJS-SP/>  
+Nonprofit work to organize the Vue.js developer community of São Paulo.
 
 2017/03 - 2017/07 - Full Stack Developer - <http://horizonfour.com.br/>  
 In Horizon Four I used Angular and React in the Front-end, and with Node.js and Python in the Back-end, but the coolest thing about it all is that everything was running AWS in Serverless environment.
