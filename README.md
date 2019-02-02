@@ -1,12 +1,12 @@
-# My awesome website
+## My awesome website
 
 > Made with Jekyll, Grunt and Docker
 
 <p align="left">
-  <img src="assets/img/demo.png" style="width: 100%; height: auto;">
+  <img src="assets/img/demo2.png" style="width: 100%; height: auto;">
 </p>
 
-## Setup
+### Setup
 ```
 // run
 docker-compose up
