@@ -1,3 +1,14 @@
+- title: Front-end Frameworks, what's anyone says...
+  date: Jan 31, 2019
+  slides: https://speakerdeck.com/igorhalfeld/front-end-frameworks-whats-anyone-says-dot-dot-dot
+  source_code: https://speakerdeck.com/igorhalfeld/front-end-frameworks-whats-anyone-says-dot-dot-dot
+  lang: Portuguese
+  from:
+    # place: BRQ
+    # link: http://www.brq.com/
+    place: Front-end SP
+    link: https://www.meetup.com/Frontend-Dev-SP-Meetup/events/258170175/
+
 - title: The Vue like you've never seen
   date: Jan 08, 2019
   slides: https://speakerdeck.com/igorhalfeld/the-vue-like-youve-never-seen

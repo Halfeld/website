@@ -8,8 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: igor@devstacks.com.br
-description: 'Software Consultant'
+email: hello@igorlui.me
+description: '**Software Engineer focused on Front-end engineering and architecture**'
 baseurl: ''
 url: http://igorhalfeld.github.io
 github_username: igorhalfeld
