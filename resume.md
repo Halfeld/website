@@ -6,7 +6,10 @@ E-mail: [hello@igorluiz.me](mailto:hello@igorluiz.me)
 
 ## Experiences
 
-2018/07 - Until now - Senior Software Engineer - <https://midianoalvo.com.br/>  
+2018/02 - Until now - Engineering Lead - <https://midianoalvo.com.br/>  
+I received a proposal from NOALVO to lead the engineering team and deal with projects and problems that appear on the backend and front end
+
+2018/07 - 2018/02 - Senior Software Engineer - <https://midianoalvo.com.br/>  
 I decided to leave my job at Stored and switch to a job where I had iteration with people and also have contact with Back-end again.
 With technologies like Node.js, MongoDB, Angular, Vue.js
 
@@ -42,7 +45,7 @@ I moved with technologies such as Node.js, MongoDB, React, React Native, GraphQl
 
 ### Community stuff
 
-- I Wrote some [articles](http://igorluiz.me/articles/) and [videos](http://igorluiz.me/videos/)
+- I Wrote some [articles](http://igorluiz.me/articles/) and recorded some [videos](http://igorluiz.me/videos/)
 - I Co-organizer on [Vue.js meetup SP](https://www.meetup.com/VueJS-SP/) and [JSSP](https://www.meetup.com/Javascript-SP/).
 - I'm Organizer on [Vue.js summit](https://vuejssummit.com/).
 

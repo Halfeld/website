@@ -4,3 +4,4 @@ _site
 node_modules/
 resume.pdf
 src/js/lib
+.DS_Store
