@@ -1,15 +1,14 @@
-
-version: '2'
-
+version: "3.7"
 
 services:
   jekyll:
     working_dir: /srv/jekyll
-    image: jekyll/jekyll
-    command: bundle exec jekyll s
+    build: .
+    command: bash -c "bundle install && bundle exec jekyll s --host 0.0.0.0"
     volumes:
       - .:/srv/jekyll
-    ports:
-      - '80:4000'
+    ports: 
+      - "4000:4000"
   grunt:
     build: .
+    command: bash -c "npm install && grunt"
