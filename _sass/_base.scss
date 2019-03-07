@@ -13,8 +13,8 @@ dl, dd, ol, ul, figure {
 // ==================
 * {
   &::selection {
-    background-color: $color-base;
-    color: $color-gray;
+    background-color: rgb(156, 30, 223);
+    color: white;
   }
 }
 
@@ -47,7 +47,7 @@ body {
   width: 100vw;
   height: 70vh;
   background-image: url('/assets/img/banner4.jpg');
-  -webkit-filter: blur(6px);
+  // -webkit-filter: blur(3px);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -56,7 +56,6 @@ body {
 canvas {
   display: block;
   vertical-align: bottom;
-
 }
 
 // Only for development

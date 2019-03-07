@@ -9,6 +9,3 @@ services:
       - .:/srv/jekyll
     ports: 
       - "4000:4000"
-  grunt:
-    build: .
-    command: bash -c "npm install && grunt"

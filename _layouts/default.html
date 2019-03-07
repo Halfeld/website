@@ -5,14 +5,14 @@
 
   <body>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,700" rel="stylesheet">
 
     <script type="application/ld+json">
       {
         "@context": "http://www.schema.org",
         "@type": "person",
-        "@id": "http://www.igorluiz.me",
-        "name": "Igor Luíz",
+        "@id": "https://www.igorluiz.me",
+        "name": "Igor Luiz Halfeld",
         "spouse": {
           "@id": "https://github.com/igorhalfeld",
           "name": "Igor Halfeld"
@@ -25,6 +25,7 @@
 
     <!-- Particles -->
     <div class="stars" id="stars"></div>
+  
     {% if page.index %}
       <article class="content">
         {{ content }}
@@ -35,6 +36,7 @@
 
     {% include footer.html %}
     {% include analytics.html %}
+    <!-- <script src="https://vuejs.org/js/vue.min.js"></script> -->
     <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>
