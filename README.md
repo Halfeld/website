@@ -1,9 +1,9 @@
 ## My awesome website
 
-> Made with Jekyll, Grunt and Docker
+> Made with Jekyll and Docker
 
 <p align="left">
-  <img src="assets/img/demo2.png" style="width: 100%; height: auto;">
+  <img src="assets/img/demo2.png?v=2" style="width: 100%; height: auto;">
 </p>
 
 ### Setup
