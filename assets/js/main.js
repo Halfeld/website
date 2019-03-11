@@ -60,19 +60,29 @@
   const routesActions = {
     '/articles/': () => {
       $('#stars').style.backgroundImage = 'url(/assets/img/article-banner.jpg)';
+      $('#title').textContent = 'Writer.';
+      $('#subtitle').textContent = 'Share knowledge to inspire people.';
     },
     '/talks/': () => {
       $('#stars').style.backgroundImage = 'url(/assets/img/talk-banner.png)';
+      $('#title').textContent = 'Speaker.';
+      $('#subtitle').textContent = 'Speak to be heard.';
     },
     '/about-me/': () => {
       $('#stars').style.backgroundImage = 'url(/assets/img/about-me-banner.png)';
+      $('#title').textContent = 'About me.';
+      $('#subtitle').textContent = 'Don’t think you are, know you are.';
     },
     '/videos/': () => {
       $('#stars').style.backgroundImage = 'url(/assets/img/video-banner.jpg)';
+      $('#title').textContent = 'Videos.';
+      $('#subtitle').textContent = 'Registering moments.';
     },
     '/projects/': () => {
       runLoadProjects();
       $('#stars').style.backgroundImage = 'url(/assets/img/projects-banner.jpg)';
+      $('#title').textContent = 'Projects';
+      $('#subtitle').textContent = 'Building the future.';
     },
   };
 
