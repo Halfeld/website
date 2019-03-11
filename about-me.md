@@ -19,10 +19,8 @@ I quite like studying the engineering behind the Front End, I love understanding
 
 # In free time..
 
-<p style="display: flex; align-items: center;">
-  <img
-    src="/assets/img/vela.jpg"
-    style="width: 400px; border-radius: 4px; margin: 2rem; margin-left: 0rem;">
+<p class="content-image-left">
+  <img src="/assets/img/vela.jpg">
     I realy like to go out with my friends to drink dome beer and have some fun! <br />
     Them're so cool but sometimes happen things unexpected.. <br />
     Talking about technology and entrepreneurship it's a recurring subject between us. 
@@ -34,10 +32,15 @@ I quite like studying the engineering behind the Front End, I love understanding
   </i>
 </p>
 
-<p style="display: flex; align-items: center; flex-direction: row-reverse;">
-  <img
-    src="/assets/img/talk5.jpg"
-    style="width: 400px; border-radius: 4px; margin: 2rem; margin-right: 0rem;">
+<p class="content-image-right">
+  <img src="/assets/img/talk5.jpg">
     Another thing I like to do in free time is share knowledge, write articles, record videos and give lectures. <br />
     The most interesting part of this is the receptivity of people to my material on the internet, the sensation of happiness is inexpressible.
+</p>
+
+# Hire me
+
+<p style="width: 100%; text-align: left">
+  <a href="mailto:hello@igorluiz.me">Send me</a>
+  an e-mail and let's talk about it.
 </p>
