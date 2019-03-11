@@ -48,11 +48,13 @@
   const withIgorHalfeldProjects = loadProjects('IgorHalfeld');
   const withBlackCapsProjects = loadProjects('blackcapz');
   const withRedtubeLabsProjects = loadProjects('redtubelabs');
+  const withNOALVOProjects = loadProjects('NOALVO');
 
   const runLoadProjects = () => Promise.all([
-    withIgorHalfeldProjects(['v-notes', 'lagoinha', 'halfeld-components', 'slidefy', 'vue-2-course', 'recordall']),
+    withIgorHalfeldProjects(['v-notes', 'lagoinha', 'halfeld-components', 'slidefy', 'vue-2-course', 'recordall', 'negrito']),
     withBlackCapsProjects(['spammer-core']),
     withRedtubeLabsProjects(['vue']),
+    withNOALVOProjects(['vue-architecture-boilerplate']),
   ]);
 
   const routesActions = {

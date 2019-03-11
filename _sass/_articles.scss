@@ -42,6 +42,9 @@
       position: relative;
       padding: 2rem;
       width: 30rem;
+      @media (max-width: 750px) {
+        width: 90%;
+      }
 
       // Title
       // =====
