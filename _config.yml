@@ -9,14 +9,16 @@ collections:
     title: Uploads
     output: true
 email: hello@igorlui.me
-description: '**Software Engineer focused on Front-end engineering and architecture**'
+description: 'Software Engineer focused on Front-end engineering and architecture'
 baseurl: ''
-url: http://igorhalfeld.github.io
+url: https://igorluiz.me
 github_username: igorhalfeld
 markdown: kramdown
 links:
-- title: About
-  url: "/"
+- title: Home
+  url: '/'
+- title: About me
+  url: "/about-me/"
 - title: Articles
   url: "/articles/"
 - title: Projects

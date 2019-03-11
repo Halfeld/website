@@ -3,7 +3,7 @@
 // =======
 .header {
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   color: $color-gray;
   background-image: linear-gradient(35deg, rgba(156, 30, 223, 0.5), rgba(42, 23, 164, 0.5));
   z-index: 1;
@@ -23,14 +23,6 @@
     align-items: center;
     text-align: center;
 
-    // My photo
-    // ========
-    > .header__personal-photo {
-      width: 15rem;
-      height: 15rem;
-      border-radius: 50%;
-    }
-
     // Details
     // =======
     > .header__personal-info {
@@ -38,10 +30,10 @@
       // Name
       // ====
       > .header__personal-info--name {
-        font-size: 4.5rem;
-        text-transform: uppercase;
+        font-size: 7.5rem;
+        // text-transform: uppercase;
         font-weight: 700;
-        padding: {
+        margin: {
           bottom: 0rem;
         }
       }
@@ -49,8 +41,11 @@
       // Description
       // ===========
       > .header__personal-info--desc {
-        font-size: 3rem;
+        font-size: 5.5rem;
         font-weight: 300;
+        margin: {
+          top: -1.1rem;
+        }
       }
     }
   }

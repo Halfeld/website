@@ -1,17 +1,42 @@
 
 .content {
-  max-width: 70rem;
+  max-width: 90rem;
   padding: 10px;
-  margin: {
-    top: 2rem;
-    bottom: 2rem;
-  }
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: $color-black;
 
+  &-cta {
+    margin: 2rem auto;
+    width: 100%;
+
+    .btn {
+      width: 100%;
+      text-align: right;
+
+      > a {
+        color: $color-base;
+        text-decoration: none;
+        padding: .5rem;
+        border-radius: 4px;
+        transition: all .1s ease-in;
+        &:hover {
+          background-color: $color-base;
+          color: white;
+        }
+      }
+    }
+  }
+
   h1 {
+    text-align: left;
+    width: 100%;
     font-size: 4rem;
     margin: {
-      top: 1rem;
+      top: 4rem;
       bottom: 1rem;
     }
   }
@@ -20,6 +45,7 @@
     font-size: 2rem;
     line-height: 160%;
   }
+
 
   a {
     text-decoration: underline;;

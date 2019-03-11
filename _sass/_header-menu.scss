@@ -31,3 +31,74 @@
   }
 
 }
+
+.menu-content {
+  width: 100%;
+  height: 100%;
+  // padding: 5rem;
+}
+.wapper.show .canvas {
+  transform: translate3d(30rem, 0, 0);
+}
+.fade {
+  opacity: 0;
+}
+.wapper {
+  // position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  > .canvas {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateX(0);
+    transition: .3s ease all;
+    backface-visibility: hidden;
+  }
+}
+.menu {
+  position: absolute;
+  width: 30rem;
+  height: 100%;
+  transform: translate3d(-30rem, 0, 0);
+  background-color: #444;
+  box-shadow: inset -0.5rem 0rem 1rem #333;
+  > .toggle-menu {
+    position: absolute;
+    top: 0.8rem;
+    left: 31rem;
+    width: 5rem;
+    stroke: #c3c3c3;
+    cursor: pointer;
+  }
+  > .nav {
+    > h2 {
+      padding: 2rem;
+      color: #c3c3c3;
+      text-align: center;
+    }
+    > ul {
+      list-style: none;
+      padding: 0;
+      > li {
+        padding: 1.5rem;
+        color: inherit;
+        transition: .1s linear all;
+        position: relative;
+        font-size: 2rem;
+
+        &:hover {
+          background-color: white;
+        }
+        &:hover > a {
+          color: rgba(156, 30, 223, 0.5);
+        }
+        > a {
+          color: #c3c3c3;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

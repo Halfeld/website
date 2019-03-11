@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="app">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,700" rel="stylesheet">
 
@@ -21,22 +21,56 @@
     </script>
 
     {% include sprite.html %}
-    {% include header.html %}
-
-    <!-- Particles -->
     <div class="stars" id="stars"></div>
-  
-    {% if page.index %}
-      <article class="content">
-        {{ content }}
-      </article>
-    {% else %}
-      {{ content }}
-    {% endif %}
+    <div class="wapper" id="wrapper">
 
-    {% include footer.html %}
+      <div class="canvas">
+        <div
+          class="menu">
+  
+          <!-- Menu list -->
+          <nav class="nav">
+            <h2>{{ label }}</h2>
+            <ul>
+              {% for link in site.links %}
+                <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+              {% endfor %}
+              <!-- <a @click="toggle()" v-for="item in items" :href="item.link">
+                <li
+                  @mouseover="change(primaryColor, secondaryColor, $event)"
+                  @mouseout="changeBack(secondaryColor, $event)">{{ item.name }}</li>
+              </a> -->
+            </ul>
+          </nav>
+
+          <!-- Menu icon -->
+          <svg class="toggle-menu" id="btn-menu" viewBox="0 0 100 125">
+            <g>
+              <path fill="#fff" d="M15.7,31.7h69c0.6,0,1-0.4,1-1s-0.4-1-1-1h-69c-0.6,0-1,0.4-1,1S15.2,31.7,15.7,31.7z"/>
+              <path fill="#fff" d="M84.8,49.1h-69c-0.6,0-1,0.4-1,1s0.4,1,1,1h69c0.6,0,1-0.4,1-1S85.3,49.1,84.8,49.1z"/>
+              <path fill="#fff" d="M84.8,68.5h-69c-0.6,0-1,0.4-1,1s0.4,1,1,1h69c0.6,0,1-0.4,1-1S85.3,68.5,84.8,68.5z"/>
+            </g>
+          </svg>
+  
+        </div>
+  
+        <!-- Custom header -->
+        <header class="menu-content">
+          {% include header.html %}
+        
+          {% if page.markdown %}
+            <article class="content">
+              {{ content }}
+            </article>
+          {% else %}
+            {{ content }}
+          {% endif %}
+      
+          <!-- {% include footer.html %} -->
+        </header>
+      </div>
+    </div>
     {% include analytics.html %}
-    <!-- <script src="https://vuejs.org/js/vue.min.js"></script> -->
     <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>

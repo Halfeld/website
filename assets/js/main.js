@@ -38,6 +38,13 @@
     });
   };
 
+  const addEventListeners = () => {
+    const btnMenu = $('#btn-menu');
+    const wrapper = $('#wrapper');
+
+    btnMenu.addEventListener('click', () => wrapper.classList.toggle('show'));
+  };
+
   const withIgorHalfeldProjects = loadProjects('IgorHalfeld');
   const withBlackCapsProjects = loadProjects('blackcapz');
   const withRedtubeLabsProjects = loadProjects('redtubelabs');
@@ -49,11 +56,27 @@
   ]);
 
   const routesActions = {
-    '/projects/': () => runLoadProjects(),
+    '/articles/': () => {
+      $('#stars').style.backgroundImage = 'url(/assets/img/article-banner.jpg)';
+    },
+    '/talks/': () => {
+      $('#stars').style.backgroundImage = 'url(/assets/img/talk-banner.png)';
+    },
+    '/about-me/': () => {
+      $('#stars').style.backgroundImage = 'url(/assets/img/about-me-banner.png)';
+    },
+    '/videos/': () => {
+      $('#stars').style.backgroundImage = 'url(/assets/img/video-banner.jpg)';
+    },
+    '/projects/': () => {
+      runLoadProjects();
+      $('#stars').style.backgroundImage = 'url(/assets/img/projects-banner.jpg)';
+    },
   };
 
   const pathname = window.location.pathname;
   if (routesActions[pathname]) {
     routesActions[pathname]()
   }
+  addEventListeners();
 })(window)
