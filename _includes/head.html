@@ -22,6 +22,7 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:image" content="{{ "/assets/img/new-banner.png" | prepend: site.url }}">
+  <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.url }} />
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
