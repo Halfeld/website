@@ -17,7 +17,7 @@ I have worked with several technologies like Node.js, MongoDB, DynamoDB, React, 
 
 I quite like studying the engineering behind the Front End, I love understanding how the Browser works and how Javascript is parsed. Love to share knowledge and contribute to free software. Currently I live in Sao Paulo, Brazil (but I'm RJ root).  
 
-# In free time..
+# In my free time..
 
 <p class="content-image-left">
   <img src="/assets/img/vela.jpg">
@@ -28,14 +28,14 @@ I quite like studying the engineering behind the Front End, I love understanding
 
 <p style="margin: 3rem; color: #ccc; font-size: 3rem; font-weight: 700">
   <i>
-    This time is key to disconnecting from computers and not thinking about anything, it's basically a reboot in the brain.
+    This is key to disconnect me from computers and not thinking about anything, it's basically a reboot in the brain.
   </i>
 </p>
 
 <p class="content-image-right">
   <img src="/assets/img/talk5.jpg">
-    Another thing I like to do in free time is share knowledge, write articles, record videos and give lectures. <br />
-    The most interesting part of this is the receptivity of people to my material on the internet, the sensation of happiness is inexpressible.
+    Another thing I like to do in my free time is share knowledge, write articles, record videos and give lectures. <br />
+    The most interesting part of this is the receptivity of people to my material on the internet, the sensation of happiness is awesome.
 </p>
 
 # Hire me
