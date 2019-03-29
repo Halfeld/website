@@ -6,6 +6,9 @@ E-mail: [hello@igorluiz.me](mailto:hello@igorluiz.me)
 
 ## Experiences
 
+2019/02 - Until now - Co-Organizer NodeBR - <https://www.meetup.com/nodebr/>  
+Nonprofit work to organize the Node.js developer community of São Paulo.
+
 2018/02 - Until now - Engineering Lead - <https://midianoalvo.com.br/>  
 I received a proposal from NOALVO to lead the engineering team and deal with projects and problems that appear on the backend and front end
 
@@ -23,10 +26,10 @@ At Stored, I started working Full Time with Vue.js and I had my first experience
 Still in the Horizon Four, I had a bigger challenge, managing a team with the technologies I mentioned before, and linking time with my work at Furniture.
 Yes, here I learned a lot about people and how they work
 
-2017/08 - Until now - Community Manager JavaScript São Paulo - <https://www.meetup.com/Javascript-SP/>  
+2017/08 - Until now - Co-Organizer JavaScript São Paulo - <https://www.meetup.com/Javascript-SP/>  
 Nonprofit work to organize the JavaScript developer community of São Paulo.
 
-2017/07 - Until now - Community Manager Vue.js São Paulo - <https://www.meetup.com/VueJS-SP/>  
+2017/07 - Until now - Organizer Vue.js São Paulo - <https://www.meetup.com/VueJS-SP/>  
 Nonprofit work to organize the Vue.js developer community of São Paulo.
 
 2017/03 - 2017/07 - Full Stack Developer - <http://horizonfour.com.br/>  
