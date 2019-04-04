@@ -1,3 +1,12 @@
+- title: CSS in JavaScript, the bullshit that worked
+  date: Apr 04, 2019
+  slides: https://speakerdeck.com/igorhalfeld/css-in-javascript
+  source_code: https://github.com/IgorHalfeld/css-in-javascripto-demo
+  lang: Portuguese
+  from:
+    place: Nerdzão
+    link: https://www.meetup.com/Nerdzao/events/259942397/
+
 - title: React behind the scenes
   date: Mar 15, 2019
   slides: https://speakerdeck.com/igorhalfeld/react-behind-the-scenes
