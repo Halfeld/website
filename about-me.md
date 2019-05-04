@@ -7,7 +7,7 @@ markdown: true
 
 # About me
 
-Hello, my name's {{ site.title }} and I'm a **{{ site.description }}** and I currently work as Engineering Lead at [NOALVO](https://midianoalvo.com.br/), Organizer at [Vue.js Summit](https://vuejssummit.com/), Co-Organizer at [Vue.js SP](https://www.meetup.com/VueJS-SP) and [JSSP](https://www.meetup.com/Javascript-SP) Meetup.
+Hello, my name's {{ site.title }} and I'm a **{{ site.description }}** and I currently work as Engineering Lead at [NOALVO](https://midianoalvo.com.br/), Microsoft MVP, Organizer at [Vue.js Summit](https://vuejssummit.com/), [Vue.js SP](https://www.meetup.com/VueJS-SP), [JSSP](https://www.meetup.com/Javascript-SP), [NodeBR](https://www.meetup.com/nodebr/) Meetup.
 
 <br />
 
