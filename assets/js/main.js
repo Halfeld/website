@@ -69,32 +69,32 @@
   };
 
   const routesActions = {
-    '/articles/': () => changeContext({
+    'articles': () => changeContext({
       bg: 'article-banner.jpg',
       title: 'Writer.',
       desc: 'Share knowledge to inspire people.',
     }),
-    '/talks/': () => changeContext({
+    'talks': () => changeContext({
       bg: 'talk-banner.png',
       title: 'Speaker.',
       desc: 'Speak to be heard.',
     }),
-    '/training/': () => changeContext({
-      bg: 'training.png',
+    'training': () => changeContext({
+      bg: 'training-banner.png',
       title: 'Training.',
       desc: 'Level up your skills.',
     }),
-    '/about-me/': () => changeContext({
+    'about-me': () => changeContext({
       bg: 'about-me-banner.png',
       title: 'About me.',
       desc: 'Don’t think you are, know you are.',
     }),
-    '/videos/': () => changeContext({
+    'videos': () => changeContext({
       bg: 'video-banner.jpg',
       title: 'Videos.',
       desc: 'Registering moments.',
     }),
-    '/projects/': () => {
+    'projects': () => {
       changeContext({
         bg: 'projects-banner.jpg',
         title: 'Projects.',
@@ -149,13 +149,13 @@
         introVue,
         vueInDepth,
       ];
-      console.log('courses', this.courses);
     }
   });
 
   const pathname = window.location.pathname;
-  if (routesActions[pathname]) {
-    routesActions[pathname]()
+  const route = pathname.replace(/\//g, '');
+  if (routesActions[route]) {
+    routesActions[route]()
   }
   addEventListeners();
 })(window)
