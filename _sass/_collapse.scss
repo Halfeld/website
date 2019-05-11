@@ -1,0 +1,31 @@
+.collapse {
+  display: flex;
+  flex-direction: column;
+  margin: {
+    bottom: 20px;
+  }
+
+  &-body {
+    padding: 10px;
+    border: 1px solid rgba($color: #956EC1, $alpha: 0.5);
+  }
+}
+
+// Expand
+.expand-enter-active,
+.expand-leave-active {
+  transition: all 400ms cubic-bezier(.8, -0.6, 0.2, 1.5);
+  transform-origin: top;
+}
+
+.expand-enter-to,
+.expand-leave {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.expand-enter,
+.expand-leave-to {
+  opacity: 0;
+  transform: scaleY(0);
+}

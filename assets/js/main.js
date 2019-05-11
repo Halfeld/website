@@ -1,5 +1,10 @@
-(function (window) {
+(async (window) => {
   const $ = element => document.querySelector(element);
+  const loadComponent = async component => {
+    const res = await fetch(`/assets/components/${component}.html`);
+    return await res.text();
+  };
+
   const pretty = (value, type) => {
     const types = {
       title: () => {
@@ -14,7 +19,7 @@
       : null;
   };
 
-  const template = res => `
+  const template = res => (`
     <a href="${res.html_url}" target="_blank" class="project">
       <span class="project--star">${res.stargazers_count}
         <svg class="project--staricon"><use xlink:href="#icon-star"></use></svg>
@@ -22,7 +27,7 @@
       <h1 class="project--title">${pretty(res.name, 'title')}</h1>
       <h2 class="project--desc">${pretty(res.description, 'desc')}</h2>
     </a>
-  `;
+  `);
 
   const loadProjects = owner => repos => {
     const promises = repos.map(repo =>
@@ -57,34 +62,96 @@
     withNOALVOProjects(['vue-architecture-boilerplate']),
   ]);
 
+  const changeContext = ({ bg, title, desc }) => {
+    $('#stars').style.backgroundImage = `url(/assets/img/${bg})`;
+    $('#title').textContent = title;
+    $('#subtitle').textContent = desc;
+  };
+
   const routesActions = {
-    '/articles/': () => {
-      $('#stars').style.backgroundImage = 'url(/assets/img/article-banner.jpg)';
-      $('#title').textContent = 'Writer.';
-      $('#subtitle').textContent = 'Share knowledge to inspire people.';
-    },
-    '/talks/': () => {
-      $('#stars').style.backgroundImage = 'url(/assets/img/talk-banner.png)';
-      $('#title').textContent = 'Speaker.';
-      $('#subtitle').textContent = 'Speak to be heard.';
-    },
-    '/about-me/': () => {
-      $('#stars').style.backgroundImage = 'url(/assets/img/about-me-banner.png)';
-      $('#title').textContent = 'About me.';
-      $('#subtitle').textContent = 'Don’t think you are, know you are.';
-    },
-    '/videos/': () => {
-      $('#stars').style.backgroundImage = 'url(/assets/img/video-banner.jpg)';
-      $('#title').textContent = 'Videos.';
-      $('#subtitle').textContent = 'Registering moments.';
-    },
+    '/articles/': () => changeContext({
+      bg: 'article-banner.jpg',
+      title: 'Writer.',
+      desc: 'Share knowledge to inspire people.',
+    }),
+    '/talks/': () => changeContext({
+      bg: 'talk-banner.png',
+      title: 'Speaker.',
+      desc: 'Speak to be heard.',
+    }),
+    '/training/': () => changeContext({
+      bg: 'training.png',
+      title: 'Training.',
+      desc: 'Level up your skills.',
+    }),
+    '/about-me/': () => changeContext({
+      bg: 'about-me-banner.png',
+      title: 'About me.',
+      desc: 'Don’t think you are, know you are.',
+    }),
+    '/videos/': () => changeContext({
+      bg: 'video-banner.jpg',
+      title: 'Videos.',
+      desc: 'Registering moments.',
+    }),
     '/projects/': () => {
+      changeContext({
+        bg: 'projects-banner.jpg',
+        title: 'Projects.',
+        desc: 'Building the future.',
+      }),
       runLoadProjects();
-      $('#stars').style.backgroundImage = 'url(/assets/img/projects-banner.jpg)';
-      $('#title').textContent = 'Projects';
-      $('#subtitle').textContent = 'Building the future.';
     },
   };
+
+  Vue.component('collapse', {
+    template: await loadComponent('Collapse'),
+    props: ['title'],
+    data: () => ({
+      isOpen: false,
+    }),
+    methods: {
+      toggle() {
+        this.isOpen = !this.isOpen;
+      },
+    },
+  });
+
+  // graphql-advanced-concepts
+  new Vue({
+    el: '#allow-vue',
+    delimiters: ['${', '}'],
+    data: {
+      courses: [],
+    },
+    async mounted() {
+      const [
+        graphqlAdvancedResponse,
+        introVueResponse,
+        vueInDepthResponse,
+      ] = await Promise.all([
+        fetch('/assets/courses/graphql-advanced-concepts.json'),
+        fetch('/assets/courses/intro-to-vue.json'),
+        fetch('/assets/courses/vue-in-depth.json'),
+      ]);
+      const [
+        graphqlAdvanced,
+        introVue,
+        vueInDepth,
+      ] = await Promise.all([
+        graphqlAdvancedResponse.json(),
+        introVueResponse.json(),
+        vueInDepthResponse.json(),
+      ]);
+
+      this.courses = [
+        graphqlAdvanced,
+        introVue,
+        vueInDepth,
+      ];
+      console.log('courses', this.courses);
+    }
+  });
 
   const pathname = window.location.pathname;
   if (routesActions[pathname]) {

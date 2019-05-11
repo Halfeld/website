@@ -1,0 +1,34 @@
+{
+  "title": "GraphQl, the advanced concepts",
+  "description": "I'll demonstrates the techniques to make the GraphQL API’s production-ready, such as Nested Resolvers, Caching and Testing. Learn everything you need to know about building production-ready GraphQL APIs!",
+  "modules": {
+    "Introduction": [
+      "Schema Definitions",
+      "Mutations",
+      "Mutation vs Query & Type vs Input",
+      "Arguments: args, context, info",
+      "Nested resolvers"
+    ],
+    "Schema": [
+      "Query fragments",
+      "Enums",
+      "Interfaces",
+      "Unions",
+      "Unions vs Interfaces"
+    ],
+    "Performance": [
+      "Optimizing resolvers",
+      "Caching in GraphQl",
+      "Data loders",
+      "Using data loders"
+    ],
+    "Testing GraphQl": [
+      "Simplifying resolvers",
+      "Unit test resolvers with Jest",
+      "Integration test with Jest"
+    ],
+    "Next Steps": [
+      "Where to learn..."
+    ]
+  }
+}

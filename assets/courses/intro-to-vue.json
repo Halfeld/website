@@ -1,0 +1,61 @@
+{
+  "title": "Intro to Vue",
+  "description": "Get started quickly with the Vue.js JavaScript framework! Learn how to build custom, reusable components and animate them. Use props, slots, and scoped styles to create flexible components. Plus learn advanced features like filters and mixins for transforming data. Get a single page application up and running fast with the Vue-CLI and learn how to work with Vuex to manage the state of larger-scale applications. This course is for developers with an intermediate knowledge of JavaScript who want to learn how to build and maintain complex applications quickly and efficiently.",
+  "modules": {
+    "Introduction": [
+      "What is Vue.js",
+      "Vue instance",
+      "Setup"
+    ],
+    "Directives & data rendering": [
+      "Vue life cycle",
+      "Comparing Vanilla JavaScript",
+      "Basic data-binding",
+      "Directives"
+    ],
+    "Methods, computed, watchers": [
+      "Methods",
+      "Working with methods",
+      "Computed properties",
+      "Reactive Programming",
+      "Watchers"
+    ],
+    "Components": [
+      "Templates",
+      "Introducing components (SFC)",
+      "Props",
+      "Refactoring into a component",
+      "Communicating events",
+      "Slots",
+      "Keep Alive"
+    ],
+    "Vue CLI & Nuxt.js": [
+      "Introducing Vue CLI",
+      "Vue CLI walkthrough",
+      "Vue snippets",
+      "Lifecycle hooks",
+      "Introducing Nuxt.js",
+      "Nuxt application walkthrough"
+    ],
+    "Filters, mixins & custom directives": [
+      "Filters",
+      "Mixins",
+      "Creating your own directives"
+    ],
+    "Animations": [
+      "CSS Animations",
+      "Transition modes",
+      "JavaScript hooks",
+      "Connect to interaction",
+      "Simple transition",
+      "Page-specific transitions"
+    ],
+    "Intro to Vuex": [
+      "Introducing Vuex",
+      "What is Vuex and what does it solve",
+      "Setup Vuex",
+      "Setup Vuex",
+      "Using single source of truth concept"
+    ]
+  }
+}

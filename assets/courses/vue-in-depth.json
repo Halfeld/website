@@ -1,0 +1,50 @@
+{
+  "title": "Vue in depth",
+  "description": "How to build more accessible routing, state management, form validation and internationalization libraries from the ground up! This course is for developers who have some experience with Vue.js and want to understand its internals better so they can author your own Vue plugins and use Vue more effectively. You'll build simple versions of advanced features of Vue.js from the ground up composing basic Vue features. This course will help you better understand the nature of common problems and how to better leverage Vue's reactivity system to come up with elegant solutions.",
+  "modules": {
+    "Reactivity": [
+      "Introducing reactivity",
+      "Getters and Setters",
+      "Proxy API",
+      "Dependency tracker",
+      "Implementing an observer"
+    ],
+    "Writing plugins": [
+      "Writing simple plugin"
+    ],
+    "Render functions": [
+      "Introducing render functions",
+      "Virtual DOM",
+      "Render function with reactivity",
+      "JSX vs templates",
+      "Render functions API",
+      "Dynamically render components",
+      "Higher-order components"
+    ],
+    "Error handling": [
+      "Handling errors elegantly"
+    ],
+    "State management": [
+      "Introducing state management",
+      "Passing props",
+      "Shared object",
+      "Shared instance",
+      "State, Actions, Getters and Mutations",
+      "Functional programming patterns"
+    ],
+    "Routing": [
+      "Basic hash router",
+      "Route table",
+      "Regular expressions",
+      "Dynamic routes"
+    ],
+    "Form validations": [
+      "Markup-based vs Model-based",
+      "Validation library"
+    ],
+    "Internationalization": [
+      "Internationalization approaches",
+      "Internationalization plugin"
+    ]
+  }
+}

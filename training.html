@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div id="allow-vue" class="training">
+  <h3 class="training-desc">
+    I can teach you several things, just choose one of the trainings below, get in touch and let's talk about it.
+  </h3>
+
+  <collapse v-for="(course, index) in courses" :key="index">
+    <template slot="header" slot-scope="{ toggle }">
+      <div class="course-header" @click="toggle.trigger">
+        <h1 class="course-title">${course.title}</h1>
+        <button class="course-button">${toggle.isOpen ? '👆🏻' : '👇🏻' }</button>
+      </div>
+    </template>
+
+    <template slot="content">
+      <p class="course-desc">${course.description}</p>
+      <h4 class="course-subtitle">Here are the training modules:</h4>
+      <ul
+        class="course-list"
+        v-for="(module, moduleIndex) in Object.keys(course.modules)"
+        :key="`module-${moduleIndex}`">
+        <h5>${module}</h5>
+        <li v-for="(item, itemIndex) in course.modules[module]" :key="itemIndex">${item}</li>
+      </ul>
+    </template>
+  </collapse>
+
+  <p class="training-desc">
+    Feel free to <a href="mailto:hello@igorluiz.me">email me</a> and ask me anything
+  </p>
+
+</div>

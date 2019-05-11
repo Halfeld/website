@@ -1,0 +1,75 @@
+.training {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+
+  &-desc {
+    font-size: 28px;
+    color: $color-black;
+    font-family: $base-font-family;
+    font-weight: 400;
+    margin: {
+      top: 20px;
+      bottom: 20px;
+    }
+
+    a {
+      color: $color-black;
+      &:hover {
+        color: #956EC1;
+      }
+    }
+  }
+}
+
+.course-header {
+  // border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  background-image: linear-gradient(67deg, rgba($color: #956EC1, $alpha: 0.5), rgba($color: #37379A, $alpha: 0.5));
+  border-radius: 8px 8px 0px 0px;
+
+  .course-title {
+    font-size: 30px;
+    color: $color-black;
+    color: white;
+    font-family: $base-font-family;
+  }
+  .course-button {
+    color: $color-black;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+  }
+}
+
+.course-desc {
+  font-size: 20px;
+  color: $color-black;
+}
+.course-subtitle {
+  margin-top: 20px;
+  font-size: 24px;
+  color: rgba($color: #37379A, $alpha: 0.5);
+}
+
+.course-list {
+  margin-top: 20px;
+  padding-left: 20px;
+  list-style: none;
+
+  > h5 {
+    font-size: 20px;
+    color: $color-black;
+  }
+  > li {
+    padding-left: 30px;
+    font-size: 18px;
+    color: $color-black;
+  }
+}

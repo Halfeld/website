@@ -1,0 +1,12 @@
+<div class="collapse">
+  <slot
+    :toggle="{ trigger: toggle, isOpen }"
+    name="header" />
+  <transition name="expand">
+    <div
+      v-if="isOpen"
+      class="collapse-body">
+      <slot name="content" />
+    </div>
+  </transition>
+</div>
