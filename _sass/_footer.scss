@@ -4,51 +4,44 @@
 // ======
 .footer {
   width: 100vw;
-  height: 5vh;
-  padding: 2rem;
-  background-color: $color-gray;
+  height: 90px;
+  padding: {
+    top: 20px;
+    bottom: 20px;
+  }
+  // background-color: $color-gray;
+  border-top: 1px solid $color-gray;
   color: $color-black;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-
 
   // Link's contact
   // ==============
   > .footer__sources {
+    margin: 0px auto;
+    padding: {
+      left: 20px;
+      right: 20px;
+    }
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 900px;
+    font-size: 2rem;
 
-    > a {
-      text-decoration: none;
+    .footer__sources--logo {
+      display: flex;
+      align-items: center;
+    }
 
+    .footer__sources--links {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
 
-      // Opacity FX
-      // ==========
-      > .footer--github,
-      > .footer--email {
-        opacity: 0.6;
-        transition: opacity .3s linear;
-
+      > a {
+        color: $color-black;
         &:hover {
-          opacity: 1.0
+          color: #956EC1;
         }
-      }
-
-
-      // Github and Email icons
-      // ======================
-      > .footer--github {
-        width: 4vw;
-        height: 4vh;
-        fill: $color-base;
-      }
-      > .footer--email {
-        width: 4vw;
-        height: 4vh;
       }
     }
   }
-
-
 }
