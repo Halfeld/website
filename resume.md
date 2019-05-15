@@ -55,11 +55,10 @@ I moved with technologies such as Node.js, MongoDB, React, React Native, GraphQl
 ### Back-end
 
 - Docker.
+- Kubernetes.
 - Go.
 - Node.js.
-- Python.
-- PHP (intermediary).
-- Ruby (basic).
+- Python (data science stuff).
 - MongoDB.
 - Redis.
 - MySQL.
@@ -70,6 +69,7 @@ I moved with technologies such as Node.js, MongoDB, React, React Native, GraphQl
 ### DevOps
 
 - AWS (Lambdas, API Gateway, EC2, DynamoDB, S3...)
+- Azure (Azure Functions, App Service, AKS, Blob)
 
 ### Front-end
 
