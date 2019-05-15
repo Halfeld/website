@@ -16,7 +16,7 @@ I received a proposal from NOALVO to lead the engineering team and deal with pro
 I decided to leave my job at Stored and switch to a job where I had iteration with people and also have contact with Back-end again.
 With technologies like Node.js, MongoDB, Angular, Vue.js
 
-2017/04 - Until now - Vue.js Summit - <https://vuejssummit.com>
+2017/04 - Until now - Vue.js Summit - <https://vuejssummit.com>  
 With the intention of bringing VueConf's experiences to Latin America, the Vue.js Community and I decided to organize the largest conference of Vue.js and we call Vue.js Summit.
 
 2017/10 - 2018/07 - Senior Front-end Engineer - <http://stored.com.br/>  
