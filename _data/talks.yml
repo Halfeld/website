@@ -1,3 +1,21 @@
+- title: JS in depth, tricks for day life
+  date: May 16, 2019
+  slides: https://speakerdeck.com/igorhalfeld/js-in-depth-tricks-for-day-life
+  source_code: https://github.com/igorhalfeld/js-in-depth-talk-demo
+  lang: Portuguese
+  from:
+    place: Nerdzão
+    link: https://www.meetup.com/Nerdzao/events/260946223/
+
+- title: Azure functions with SSR Apps
+  date: May 09, 2019
+  slides: https://speakerdeck.com/igorhalfeld/azure-functions-with-ssr-apps
+  source_code: https://github.com/igorhalfeld/spacex-ssr
+  lang: Portuguese
+  from:
+    place: Azure Brazil Community
+    link: https://www.meetup.com/azureBrasilComunidade/events/260890307/
+
 - title: CSS in JavaScript, the bullshit that worked
   date: Apr 04, 2019
   slides: https://speakerdeck.com/igorhalfeld/css-in-javascript
@@ -5,7 +23,7 @@
   lang: Portuguese
   from:
     place: Nerdzão
-    link: https://www.meetup.com/Nerdzao/events/259942397/
+    link: https://www.meetup.com/ã/events/259942397/
 
 - title: React behind the scenes
   date: Mar 15, 2019
