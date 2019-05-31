@@ -26,25 +26,57 @@
     // Details
     // =======
     > .header__personal-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       // Name
       // ====
       > .header__personal-info--name {
-        font-size: 6.5rem;
-        // text-transform: uppercase;
-        font-weight: 700;
+        font-size: 5.5rem;
+        text-align: left;
+        // text-transform: itlic;
+        font-weight: 400;
         margin: {
-          bottom: 0rem;
+          left: 100px;
+          bottom: 30px;
+        }
+        @media screen and (max-width: 930px) {
+          font-size: 4rem;
+        }
+        @media screen and (max-width: 810px) {
+          font-size: 2.5rem;
+          margin: {
+            left: 10px;
+            bottom: 10px;
+          }
         }
       }
 
       // Description
       // ===========
       > .header__personal-info--desc {
-        font-size: 4.5rem;
-        font-weight: 300;
-        margin: {
-          top: -1.1rem;
+        font-size: 17rem;
+        font-weight: 700;
+        text-align: left;
+        line-height: 100%;
+        // text-transform: uppercase;
+        padding: {
+          top: 0px;
+          left: 100px;
+          right: 100px;
+          bottom: 0px;
+        };
+
+        @media screen and (max-width: 1250px) {
+          font-size: 12rem;
+        }
+        @media screen and (max-width: 930px) {
+          font-size: 10rem;
+        }
+        @media screen and (max-width: 810px) {
+          font-size: 7rem;
+          padding: 10px;
         }
       }
     }

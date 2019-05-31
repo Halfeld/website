@@ -62,13 +62,21 @@
     withNOALVOProjects(['vue-architecture-boilerplate']),
   ]);
 
+  const initTiltFx = () => {
+    const elements = [$('#subtitle')];
+    console.log('Elements', elements);
+    elements.forEach(element => VanillaTilt.init(element, { gyroscope: false }));
+  };
+
   const changeContext = ({ bg, title, desc }) => {
     $('#stars').style.backgroundImage = `url(/assets/img/${bg})`;
     $('#title').textContent = title;
     $('#subtitle').textContent = desc;
+    initTiltFx();
   };
 
   const routesActions = {
+    '': () => initTiltFx(),
     'articles': () => changeContext({
       bg: 'article-banner.jpg',
       title: 'Writer.',
