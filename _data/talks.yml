@@ -1,3 +1,12 @@
+- title: Azure functions with GraphQl
+  date: Jun 03, 2019
+  slides: https://speakerdeck.com/igorhalfeld/azure-function-with-graphql
+  source_code: https://github.com/IgorHalfeld/azure-functions-graphql-demo
+  lang: Portuguese
+  from:
+    place: DotNet SP
+    link: https://www.sympla.com.br/visual-studio-2019---lancamento---azure-talks--fc-nuvem__541827
+
 - title: JS in depth, tricks for day life
   date: May 16, 2019
   slides: https://speakerdeck.com/igorhalfeld/js-in-depth-tricks-for-day-life
