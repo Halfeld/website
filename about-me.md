@@ -7,15 +7,22 @@ markdown: true
 
 # About me
 
-Hello, my name's {{ site.title }} and I'm a **{{ site.description }}** and I currently work as Engineering Lead at [NOALVO](https://midianoalvo.com.br/), Microsoft MVP, Organizer at [Vue.js Summit](https://vuejssummit.com/), [Vue.js SP](https://www.meetup.com/VueJS-SP), [JSSP](https://www.meetup.com/Javascript-SP), [NodeBR](https://www.meetup.com/nodebr/) Meetup.
+<div class="content-image-right">
+  <img src="/assets/img/me.png">
+  <p>
+    Hello, my name's Igor Halfeld and I'm a <strong>Software Engineer focused on Front-end engineering and architecture</strong> and I currently work as Engineering Lead at <a href="https://midianoalvo.com.br/">NOALVO</a>, Microsoft MVP, Organizer at <a href="https://vuejssummit.com/">Vue.js Summit</a>, <a href="https://www.meetup.com/VueJS-SP">Vue.js SP</a>, <a href="https://www.meetup.com/Javascript-SP">JSSP</a>, <a href="https://www.meetup.com/nodebr/">NodeBR</a>.
 
-<br />
+  <br />
+  <br />
 
-I have worked with several technologies like Node.js, MongoDB, DynamoDB, React, React Native, GraphQl, Apollo, Immutable, Lambda AWS, SNS, SQS, Azure Functions and many more, my main programming languages are **JavaScript, Golang and Python.**
+    I have worked with several technologies like Node.js, MongoDB, DynamoDB, React, React Native, GraphQl, Apollo, Immutable, Lambda AWS, SNS, SQS, Azure Functions and many more, my main programming languages are <strong>JavaScript, Golang and Python.</strong>
 
-<br />
+  <br />
+  <br />
 
-I quite like studying the engineering behind the Front End, I love understanding how the Browser works and how Javascript is parsed. Love to share knowledge and contribute to free software. Currently I live in Sao Paulo, Brazil (but I'm RJ root).  
+    I quite like studying the engineering behind the Front End, I love understanding how the Browser works and how Javascript is parsed. Love to share knowledge and contribute to free software. Currently I live in Sao Paulo, Brazil (but I'm RJ root).  
+  </p>
+</div>
 
 # In my free time..
 

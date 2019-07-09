@@ -19,18 +19,23 @@ $color-second: #591F2F;
 $color-black: #444;
 $color-gray: #F2F2F2;
 
+@keyframes enter-page {
+  from { margin-top: -300px; opacity: 0; }
+  to { margin-top: 0px; opacity: 1.0; }
+}
+
 @import
-        'base',
-        'header',
-        'header-menu',
-        'content',
-        'articles',
-        'videos',
-        'talks',
-        'modal',
-        'collapse',
-        'training',
-        'projects',
-        'footer',
-        'syntax-highlighting'
+  'base',
+  'header',
+  'header-menu',
+  'content',
+  'articles',
+  'videos',
+  'talks',
+  'modal',
+  'collapse',
+  'training',
+  'projects',
+  'footer',
+  'syntax-highlighting'
 ;

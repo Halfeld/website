@@ -41,6 +41,7 @@
           left: 100px;
           bottom: 30px;
         }
+        // animation: enter-page 400ms ease-in-out;
         @media screen and (max-width: 930px) {
           font-size: 4rem;
         }
@@ -56,11 +57,12 @@
       // Description
       // ===========
       > .header__personal-info--desc {
-        font-size: 17rem;
+        font-size: 10rem;
         font-weight: 700;
         text-align: left;
         line-height: 100%;
         // text-transform: uppercase;
+        animation: enter-page 400ms ease-in-out;
         padding: {
           top: 0px;
           left: 100px;
