@@ -1,3 +1,57 @@
+- title: APIs made easy with Azure Functions
+  date: Jul 29, 2019
+  slides: https://speakerdeck.com/igorhalfeld/apis-made-easy-with-azure-functions
+  source_code: https://speakerdeck.com/igorhalfeld/apis-made-easy-with-azure-functions
+  lang: Portuguese
+  from:
+    place: Nerdzão Week
+    link: https://nerdzao.netlify.com/week
+
+- title: You don't saw what I saw on Vue
+  date: Jul 29, 2019
+  slides: https://speakerdeck.com/igorhalfeld/you-dont-saw-what-i-saw-on-vue
+  source_code: https://github.com/IgorHalfeld/websockets-picture-app
+  lang: Portuguese
+  from:
+    place: Nerdzão Week
+    link: https://nerdzao.netlify.com/week
+
+- title: Became a MC with TensorFlow
+  date: Jul 19, 2019
+  slides: https://speakerdeck.com/igorhalfeld/became-a-mc-with-tensorflow
+  source_code: https://github.com/leticiaspedroso/funk-generator
+  lang: Portuguese
+  from:
+    place: The Developers Conference
+    link: http://www.thedevelopersconference.com.br/tdc/2019/saopaulo/trilha-machine-learning
+
+- title: Sexy APIs using serverless architecting
+  date: Jul 15, 2019
+  slides: https://speakerdeck.com/igorhalfeld/sexy-apis-with-serverless-architecture
+  source_code: https://github.com/IgorHalfeld/digital-innovation-one-demo
+  lang: Portuguese
+  from:
+    place: Digital Innovation One
+    link: https://www.youtube.com/watch?v=uCYC1lYpyxc
+
+- title: Azure Function + Front-end Code, sounds good!
+  date: Jun 21, 2019
+  slides: https://speakerdeck.com/igorhalfeld/azure-function-plus-front-end-code-equals-good-idea
+  source_code: https://speakerdeck.com/igorhalfeld/azure-function-plus-front-end-code-equals-good-idea
+  lang: Portuguese
+  from:
+    place: Visual Studio Summit
+    link: http://vssummit.com.br/
+
+- title: Thinking Functionally in Go
+  date: Jun 19, 2019
+  slides: https://speakerdeck.com/igorhalfeld/thinking-functionally-in-go
+  source_code: https://speakerdeck.com/igorhalfeld/thinking-functionally-in-go
+  lang: Portuguese
+  from:
+    place: Golang SP
+    link: https://www.meetup.com/golangbr/events/262223564/
+    
 - title: Azure functions with GraphQl
   date: Jun 03, 2019
   slides: https://speakerdeck.com/igorhalfeld/azure-function-with-graphql
