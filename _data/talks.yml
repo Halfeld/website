@@ -16,10 +16,37 @@
     place: Nerdzão Week
     link: https://nerdzao.netlify.com/week
 
+- title: Azure Function with GraphQL
+  date: Jul 19, 2019
+  slides: https://speakerdeck.com/igorhalfeld/azure-function-with-graphql
+  source_code: https://github.com/IgorHalfeld/azure-functions-graphql-demo
+  lang: Portuguese
+  from:
+    place: The Developers Conference
+    link: http://www.thedevelopersconference.com.br/tdc/2019/saopaulo/trilha-modern-web
+
+- title: Thinking Functionally in Go
+  date: Jul 19, 2019
+  slides: https://speakerdeck.com/igorhalfeld/thinking-functionally-in-go
+  source_code: https://speakerdeck.com/igorhalfeld/thinking-functionally-in-go
+  lang: Portuguese
+  from:
+    place: The Developers Conference
+    link: http://www.thedevelopersconference.com.br/tdc/2019/saopaulo/trilha-go
+
 - title: Became a MC with TensorFlow
   date: Jul 19, 2019
   slides: https://speakerdeck.com/igorhalfeld/became-a-mc-with-tensorflow
   source_code: https://github.com/leticiaspedroso/funk-generator
+  lang: Portuguese
+  from:
+    place: The Developers Conference
+    link: http://www.thedevelopersconference.com.br/tdc/2019/saopaulo/trilha-serverless
+
+- title: Azure Function and Front-end Code
+  date: Jul 17, 2019
+  slides: https://speakerdeck.com/igorhalfeld/azure-function-and-front-end-code
+  source_code: https://github.com/IgorHalfeld/azure-function-nuxt-app
   lang: Portuguese
   from:
     place: The Developers Conference
