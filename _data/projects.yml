@@ -1,0 +1,51 @@
+- title: PR Maneiro
+  desc: Faça alguém feliz com um comentário no PR!
+  link: https://github.com/IgorHalfeld/pr-maneiro
+
+- title: useReactiveState(🔥)
+  desc: Data binding incorporation in React world
+  link: https://github.com/IgorHalfeld/use-reactive-state
+
+- title: Azure Functions Bridge
+  desc: A bridge to Nuxt-based apps works in Azure Functions
+  link: https://github.com/IgorHalfeld/azure-functions-bridge
+
+- title: Lagoinha
+  desc: Utilitário Golang para busca por CEP integrado diretamente aos serviços dos Correios, ViaCEP e outros 
+  link: https://github.com/IgorHalfeld/lagoinha
+
+- title: Slidefy
+  desc: The way to create slides when you're in a hurry, but you want them to look good
+  link: https://github.com/IgorHalfeld/slidefy
+
+- title: SendIt
+  desc: Better and fastest way to send emails to multiple recipients
+  link: https://github.com/OrganizersTooling/send-it
+
+- title: VueRedTube
+  desc: Touch yourself on the Vue way
+  link: https://github.com/redtubelabs/vue
+
+- title: SpammerCore
+  desc: Strategy-oriented social network spammer
+  link: https://github.com/blackcapz/spammer-core
+
+- title: Negrito
+  desc: Negrito is a cool guy that download linkedin learning courses for you :)
+  link: https://github.com/IgorHalfeld/negrito
+
+- title: Recordall
+  desc: Simple and powerful chrome extension to record screens
+  link: https://github.com/IgorHalfeld/recordall
+
+- title: Halfeld Components
+  desc:  Vue.js components
+  link: https://github.com/IgorHalfeld/halfeld-components
+
+- title: VNotes
+  desc: Simple and beautiful notepad to Markdown with Vue.js and Local Storage API
+  link: https://github.com/IgorHalfeld/v-notes
+
+- title: Vue 2 course
+  desc: Course about Vue 2.0 in portuguese
+  link: https://github.com/IgorHalfeld/vue-2-course

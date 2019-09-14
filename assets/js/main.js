@@ -29,19 +29,19 @@
     </a>
   `);
 
-  const loadProjects = owner => repos => {
-    const promises = repos.map(repo =>
-      fetch(`https://api.github.com/repos/${owner}/${repo}`)
-      .then(res => res.json())
-    );
+  // const loadProjects = owner => repos => {
+  //   const promises = repos.map(repo =>
+  //     fetch(`https://api.github.com/repos/${owner}/${repo}`)
+  //     .then(res => res.json())
+  //   );
 
-    Promise.all(promises)
-    .then(res => {
-      res.forEach(item => {
-        $('.projects').innerHTML += template(item);
-      })
-    });
-  };
+  //   Promise.all(promises)
+  //   .then(res => {
+  //     res.forEach(item => {
+  //       $('.projects').innerHTML += template(item);
+  //     })
+  //   });
+  // };
 
   const addEventListeners = () => {
     const btnMenu = $('#btn-menu');
@@ -50,17 +50,17 @@
     btnMenu.addEventListener('click', () => wrapper.classList.toggle('show'));
   };
 
-  const withIgorHalfeldProjects = loadProjects('IgorHalfeld');
-  const withBlackCapsProjects = loadProjects('blackcapz');
-  const withRedtubeLabsProjects = loadProjects('redtubelabs');
-  const withNOALVOProjects = loadProjects('NOALVO');
+  // const withIgorHalfeldProjects = loadProjects('IgorHalfeld');
+  // const withBlackCapsProjects = loadProjects('blackcapz');
+  // const withRedtubeLabsProjects = loadProjects('redtubelabs');
+  // const withNOALVOProjects = loadProjects('NOALVO');
 
-  const runLoadProjects = () => Promise.all([
-    withIgorHalfeldProjects(['v-notes', 'lagoinha', 'halfeld-components', 'slidefy', 'vue-2-course', 'recordall', 'negrito']),
-    withBlackCapsProjects(['spammer-core']),
-    withRedtubeLabsProjects(['vue']),
-    withNOALVOProjects(['vue-architecture-boilerplate']),
-  ]);
+  // const runLoadProjects = () => Promise.all([
+  //   withIgorHalfeldProjects(['v-notes', 'lagoinha', 'halfeld-components', 'slidefy', 'vue-2-course', 'recordall', 'negrito']),
+  //   withBlackCapsProjects(['spammer-core']),
+  //   withRedtubeLabsProjects(['vue']),
+  //   withNOALVOProjects(['vue-architecture-boilerplate']),
+  // ]);
 
   const changeContext = ({ bg, title, desc }) => {
     $('#stars').style.backgroundImage = `url(/assets/img/${bg})`;
@@ -99,8 +99,7 @@
         bg: 'projects-banner.jpg',
         title: 'Projects.',
         desc: 'Building the future.',
-      }),
-      runLoadProjects();
+      });
     },
   };
 
