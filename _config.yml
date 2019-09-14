@@ -29,7 +29,7 @@ links:
   url: "/videos/"
 - title: '🗣 Talks'
   url: "/talks/"
-- title: '🙋🏻‍ Resume'
+- title: '💃🏼 Resume'
   url: https://github.com/Halfeld/halfeld.github.io/blob/master/resume.md
 sass:
   style: compressed

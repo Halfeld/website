@@ -9,7 +9,7 @@ markdown: true
 
 <div class="content-image-right">
   <img src="/assets/img/me.jpeg">
-  <p>
+  <p style="width: 470px">
     Hello, my name's Igor Halfeld and I'm a <strong>Software Engineer focused on Front-end engineering and architecture</strong> and I currently work as Engineering Lead at <a href="https://midianoalvo.com.br/">NOALVO</a>, Microsoft MVP, Organizer at <a href="https://vuejssummit.com/">Vue.js Summit</a>, <a href="https://www.meetup.com/VueJS-SP">Vue.js SP</a>, <a href="https://www.meetup.com/Javascript-SP">JSSP</a>, <a href="https://www.meetup.com/nodebr/">NodeBR</a>.
 
   <br />

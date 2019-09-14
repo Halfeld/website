@@ -1,15 +1,18 @@
 # Igor Luiz Halfeld
 
-Brazilian, single, 20 years old.<br>
+Brazilian, single, 21 years old.<br>
 Sao Paulo - SP, Brazil.<br>
 E-mail: [hello@igorluiz.me](mailto:hello@igorluiz.me)
 
 ## Experiences
 
+2019/02 - Until now - Senior Software Engineer - <https://estrategiaconcursos.com.br>  
+Returning to working with the React.js ecosystem on the front-end and dealing with distributed applications using gRPC with golang on back-end
+
 2019/02 - Until now - Co-Organizer NodeBR - <https://www.meetup.com/nodebr/>  
 Nonprofit work to organize the Node.js developer community of São Paulo.
 
-2018/02 - Until now - Engineering Lead - <https://midianoalvo.com.br/>  
+2018/02 - 2019/07 - Engineering Lead - <https://midianoalvo.com.br/>  
 I received a proposal from NOALVO to lead the engineering team and deal with projects and problems that appear on the backend and front end
 
 2018/07 - 2018/02 - Senior Software Engineer - <https://midianoalvo.com.br/>  
