@@ -1,3 +1,7 @@
+- title: Go Promise
+  desc: Manage async flow as a javascript person
+  link: https://github.com/IgorHalfeld/go-promise
+
 - title: PR Maneiro
   desc: Faça alguém feliz com um comentário no PR!
   link: https://github.com/IgorHalfeld/pr-maneiro
