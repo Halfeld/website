@@ -28,7 +28,7 @@ markdown: true
 
 <p class="content-image-left">
   <img src="/assets/img/vela.jpg">
-    I realy like to go out with my friends to drink dome beer and have some fun! <br />
+    I realy like to go out with my friends to drink some beer and have some fun! <br />
     Them're so cool but sometimes happen things unexpected.. <br />
     Talking about technology and entrepreneurship it's a recurring subject between us. 
 </p>
