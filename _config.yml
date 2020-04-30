@@ -4,6 +4,7 @@ timezone: UTC
 collections:
   posts:
     title: Posts
+    permalink: /:collection/:name
     output: true
   uploads:
     title: Uploads
@@ -23,8 +24,8 @@ links:
   url: "/articles/"
 - title: '💻 Projects'
   url: "/projects/"
-- title: '🧠 Training'
-  url: "/training/"
+#- title: '🧠 Training'
+#  url: "/training/"
 - title: '🎥 Videos'
   url: "/videos/"
 - title: '🗣 Talks'

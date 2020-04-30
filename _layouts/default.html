@@ -21,7 +21,18 @@
     </script>
 
     {% include sprite.html %}
-    <div class="stars" id="stars"></div>
+
+    {% if page.image %}
+      <div
+        style="background-image: url('/assets/img/{{ page.image }}')"
+        class="stars"
+        id="stars"></div>
+    {% else %}
+      <div
+        class="stars"
+        id="stars"></div>
+    {% endif %}
+
     <div class="wapper" id="wrapper">
 
       <div class="canvas">
@@ -72,7 +83,6 @@
     </div>
     {% include footer.html %}
     {% include analytics.html %}
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>

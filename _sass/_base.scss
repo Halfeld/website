@@ -1,13 +1,24 @@
-
 // Reset some basic elements
 // =========================
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
 }
-
 
 // Nhé nhé nhé style
 // ==================
@@ -36,8 +47,7 @@ body {
   }
 }
 
-
-// Snow Fx
+// Overlay Fx
 // ======
 .stars {
   position: absolute;
@@ -45,12 +55,12 @@ body {
   left: 0rem;
   z-index: 0;
   width: 100vw;
-  height: 100vh;
-  background-image: url('/assets/img/banner10.jpg');
+  height: 80vh;
+  background-image: url("/assets/img/banner10.jpg");
   -webkit-filter: blur(4px);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 20%;
 }
 
 canvas {
