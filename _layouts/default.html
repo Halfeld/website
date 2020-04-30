@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html id="app" style="overflow: hidden;">
 
   {% include head.html %}
 
-  <body id="app">
+  <body>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,700" rel="stylesheet">
+
+    <div id="loading" class="loading">
+      <span class="loading-spinner"></span>
+    </div>
 
     <script type="application/ld+json">
       {

@@ -16,21 +16,21 @@ url: https://igorluiz.me
 github_username: igorhalfeld
 markdown: kramdown
 links:
-- title: '🏁 Home'
+- title: 'Home'
   url: '/'
-- title: '🦄 About me'
+- title: 'About me'
   url: "/about-me/"
-- title: '📝 Articles'
+- title: 'Articles'
   url: "/articles/"
-- title: '💻 Projects'
+- title: 'Projects'
   url: "/projects/"
-#- title: '🧠 Training'
+#- title: 'Training'
 #  url: "/training/"
-- title: '🎥 Videos'
+- title: 'Videos'
   url: "/videos/"
-- title: '🗣 Talks'
+- title: 'Talks'
   url: "/talks/"
-- title: '💃🏼 Resume'
+- title: 'Resume'
   url: https://github.com/Halfeld/halfeld.github.io/blob/master/resume.md
 sass:
   style: compressed

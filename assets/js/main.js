@@ -5,6 +5,12 @@
     const btnMenu = $('#btn-menu');
     const wrapper = $('#wrapper');
 
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        $('#loading').style.display = 'none';
+        $('#app').style.overflow = 'auto';
+      }, 800)
+    });
     btnMenu.addEventListener('click', () => wrapper.classList.toggle('show'));
   };
 

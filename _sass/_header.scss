@@ -64,6 +64,7 @@
         line-height: 100%;
         // text-transform: uppercase;
         animation: enter-page 400ms ease-in-out;
+        animation-delay: 800ms;
         padding: {
           top: -5px;
         }
@@ -76,8 +77,7 @@
           font-size: 10rem;
         }
         @media screen and (max-width: 810px) {
-          font-size: 7rem;
-          padding: 10px;
+          font-size: 6rem;
         }
       }
     }
