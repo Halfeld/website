@@ -141,8 +141,22 @@
     }
   }
 
+  iframe {
+    height: 500px;
+    margin: {
+      top: 30px;
+      bottom: 30px;
+    }
+  }
+
   h1 {
     font-size: 3rem;
+    color: $color-black;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 2.8rem;
     color: $color-black;
     margin-top: 30px;
   }
