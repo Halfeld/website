@@ -15,11 +15,12 @@ baseurl: ''
 url: https://igorluiz.me
 github_username: igorhalfeld
 markdown: kramdown
+
 links:
 - title: 'Home'
   url: '/'
-- title: 'About me'
-  url: "/about-me/"
+# - title: 'About me'
+#  url: "/about-me/"
 - title: 'Articles'
   url: "/articles/"
 - title: 'Projects'
@@ -30,8 +31,7 @@ links:
   url: "/videos/"
 - title: 'Talks'
   url: "/talks/"
-- title: 'Resume'
-  url: https://github.com/Halfeld/halfeld.github.io/blob/master/resume.md
+
 sass:
   style: compressed
 exclude:

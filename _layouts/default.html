@@ -50,11 +50,7 @@
               {% for link in site.links %}
                 <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
               {% endfor %}
-              <!-- <a @click="toggle()" v-for="item in items" :href="item.link">
-                <li
-                  @mouseover="change(primaryColor, secondaryColor, $event)"
-                  @mouseout="changeBack(secondaryColor, $event)">{{ item.name }}</li>
-              </a> -->
+
             </ul>
           </nav>
 
@@ -81,7 +77,6 @@
             {{ content }}
           {% endif %}
       
-          <!-- {% include footer.html %} -->
         </header>
       </div>
     </div>

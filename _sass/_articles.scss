@@ -1,3 +1,42 @@
+.article-alert-warning {
+  width: 75vw;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin: 2rem auto;
+
+  > p {
+    font-size: 1.5rem;
+    color: #444;
+  }
+}
+
+.instagram-section {
+  padding: {
+    left: 10px;
+    right: 10px;
+    top: 50px;
+    bottom: 50px;
+  }
+  background-color: #f4f4f4;
+
+  p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  a {
+    text-decoration: underline;
+    font-size: 2rem;
+    color: inherit;
+
+    &:hover {
+      color: $color-base;
+    }
+  }
+}
+
 // Box
 // ===
 .articles {
@@ -83,7 +122,7 @@
 
 .article-content {
   width: 800px;
-  margin: 5px auto;
+  margin: 30px auto;
   height: auto;
   font-family: $base-font-family;
   padding: 10px;
@@ -101,6 +140,16 @@
     width: 100%;
   }
 
+  a {
+    text-decoration: underline;
+    font-size: 2rem;
+    color: inherit;
+
+    &:hover {
+      color: $color-base;
+    }
+  }
+
   code[class*="highlighter"] {
     background-color: lighten($color-base, 45%);
     color: #444;
@@ -110,8 +159,22 @@
     font-size: 15px;
   }
 
+  .highlighter-rouge {
+    box-shadow: 0px 10px 30px #f4f4f4;
+    margin: {
+      top: 25px;
+      bottom: 25px;
+    }
+  }
+
+  .highlighter-rouge .highlight {
+    border-radius: 8px;
+    background-color: #f4f4f4;
+  }
+
   pre {
-    padding: 10px;
+    padding: 20px;
+    line-height: 130%;
     font-size: 1.6rem;
   }
 
@@ -142,10 +205,12 @@
   }
 
   iframe {
+    box-shadow: 0px 10px 30px #f4f4f4;
+    border-radius: 8px;
     height: 500px;
     margin: {
-      top: 30px;
-      bottom: 30px;
+      top: 25px;
+      bottom: 25px;
     }
   }
 
@@ -161,9 +226,31 @@
     margin-top: 30px;
   }
 
+  h3 {
+    font-size: 2.5rem;
+    color: $color-black;
+    margin-top: 30px;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+    color: $color-black;
+    margin-top: 30px;
+  }
+
   p {
     font-size: 1.8rem;
     line-height: 180%;
     color: $color-black;
+  }
+
+  li {
+    font-size: 1.8rem;
+    margin-top: 10px;
+
+    &::marker {
+      font-size: 2.2rem;
+      color: $color-base;
+    }
   }
 }
