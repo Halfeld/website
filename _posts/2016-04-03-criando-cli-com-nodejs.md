@@ -7,9 +7,6 @@ date: 2016-04-03T00:00:00.000Z
 image: cli-node-js.png
 ---
 
-Introdução
-==========
-
 Hey galera, como vocês estão? espero que de boas, bora lê um post maroto sobre Node? Demorou!
 
 Ferramentas de linha comando pelo menos para mim são essenciais no desenvolvimento de qualquer projeto, não sei você, mas de tanto usar o terminal eu acho mais fácil encontrar um arquivo por ele do que pelo explorer xD

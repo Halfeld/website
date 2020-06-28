@@ -1,5 +1,5 @@
 ---
-title: Articles
+title: Articles • Igor Halfeld
 permalink: "/articles/"
 layout: page
 ---
@@ -7,7 +7,7 @@ layout: page
 <div class="article-alert-warning">
   <p>
     <i>
-      * the articles are being migrated to this blog little by little
+      * The articles are being migrated to this blog little by little.
     </i>
   </p>
 </div>
@@ -18,9 +18,15 @@ layout: page
     <div class="article__box">
       <h1 class="article__box--title">{{ article.title }}</h1>
       <h2 class="article__box--desc">{{ article.desc }}</h2>
+
+      <div class="article__box--content">
+        {{ article.content | truncate: 100 | markdownify }}
+      </div>
+
       <span class="article__box--date">
-        {{ article.date | date: "%d %b %Y" | upcase }} </span
-      ><br />
+        {{ article.date | date: "%d %b %Y" | upcase }}
+      </span>
+      <br />
       <span class="article__box--lang">{{ article.lang }}</span>
     </div>
   </a>

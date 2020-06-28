@@ -21,16 +21,16 @@ links:
   url: '/'
 # - title: 'About me'
 #  url: "/about-me/"
-- title: 'Articles'
+- title: 'Activities'
   url: "/articles/"
 - title: 'Projects'
   url: "/projects/"
 #- title: 'Training'
 #  url: "/training/"
-- title: 'Videos'
-  url: "/videos/"
-- title: 'Talks'
-  url: "/talks/"
+#- title: 'Videos'
+#  url: "/videos/"
+#- title: 'Talks'
+#  url: "/talks/"
 
 sass:
   style: compressed

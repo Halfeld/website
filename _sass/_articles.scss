@@ -1,12 +1,15 @@
 .article-alert-warning {
-  width: 75vw;
-  background-color: #f4f4f4;
-  padding: 10px;
-  border-radius: 8px;
+  padding: {
+    left: 10px;
+    right: 10px;
+    top: 20px;
+    bottom: 20px;
+  }
+  background-color: #f9f9f9;
   font-weight: 500;
-  margin: 2rem auto;
 
   > p {
+    text-align: center;
     font-size: 1.5rem;
     color: #444;
   }
@@ -42,9 +45,9 @@
 .articles {
   width: 80vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
   margin: 2rem auto;
 
   @media (max-width: 750px) {
@@ -54,11 +57,12 @@
   // Article
   // =======
   > .article {
-    flex-basis: 25rem;
+    width: 65%;
     transition: 0.1s linear all;
     text-decoration: none;
     color: #999;
     box-shadow: 0rem 0rem 10rem $color-gray;
+    border-left: 5px solid $color-base;
     margin: {
       top: 1rem;
       bottom: 1rem;
@@ -68,18 +72,12 @@
       flex-basis: 100vw;
     }
 
-    &:hover,
-    &:active {
-      border-top: 2px solid $color-base;
-      color: $color-black;
-    }
-
     // Article info
     // ============
     > .article__box {
       position: relative;
       padding: 2rem;
-      width: 30rem;
+      width: 100%;
       @media (max-width: 750px) {
         width: 90%;
       }
@@ -88,12 +86,15 @@
       // =====
       > .article__box--title {
         font-size: 3rem;
+        color: $color-black;
       }
 
       // Description
       // ===========
       > .article__box--desc {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-top: -0.5rem;
+        font-weight: 300;
         margin-bottom: 1rem;
       }
 
@@ -103,14 +104,20 @@
         font-size: 1.2rem;
       }
 
+      > .article__box--content {
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+      }
+
       // Language
       // ========
       > .article__box--lang {
         position: absolute;
         background-color: $color-base;
         padding: 0.5rem;
-        top: 1rem;
-        right: -1.5rem;
+        top: 0rem;
+        right: 2rem;
         color: $color-gray;
         font-size: 1.2rem;
         opacity: 0.6;

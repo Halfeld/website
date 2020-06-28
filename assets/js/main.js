@@ -23,7 +23,7 @@
   const routesActions = {
     'articles': () => changeContext({
       bg: 'article-banner.jpg',
-      title: 'Writer.',
+      title: 'Activities.',
       desc: 'Share knowledge to inspire people.',
     }),
     'talks': () => changeContext({
