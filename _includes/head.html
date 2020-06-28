@@ -1,35 +1,99 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="expires" content = "-1" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="expires" content="-1" />
   <meta http-equiv="cache-control" content="public" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  />
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content="{% if page.title %}{{ page.title }}{% else %}{{
+      site.title
+    }}{% endif %}"
+  />
+  <meta
+    name="twitter:description"
+    content="{% if page.desc %}{{
+      page.desc | strip_html | strip_newlines | truncate: 160
+    }}{% else %}{{ site.description }}{% endif %}"
+  />
   {% if page.image %}
-    <meta property="twitter:image:src" content="{{ site.url }}/assets/img/{{ page.image }}">
-  {% else %}
-    <meta property="twitter:image:src" content="{{ "/assets/img/new-banner.png" | prepend: site.url }}">
-  {% endif %}
+  <meta
+    property="twitter:image:src"
+    content="{{ site.url }}/assets/img/{{ page.image }}"
+  />
+  {% else %} <meta property="twitter:image:src" content="{{
+    "/assets/img/new-banner.png" | prepend: site.url
+  }}"> {% endif %}
 
   <!-- Facebook -->
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:image" content="{{ "/assets/img/new-banner.png" | prepend: site.url }}">
-  <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.url }}" />
+  <meta
+    property="og:url"
+    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  />
+  <meta
+    property="og:title"
+    content="{% if page.title %}{{ page.title }}{% else %}{{
+      site.title
+    }}{% endif %}"
+  />
+  <meta
+    property="og:description"
+    content="{% if page.desc %}{{
+      page.desc | strip_html | strip_newlines | truncate: 160
+    }}{% else %}{{ site.description }}{% endif %}"
+  />
+  <meta property="og:site_name" content="{{ site.title }}" />
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.image %}
+  <meta
+    property="og:image"
+    content="{{ site.url }}/assets/img/{{ page.image }}"
+  />
+  {% else %} <meta property="og:image" content="{{
+    "/assets/img/new-banner.png" | prepend: site.url
+  }}"> {% endif %} <link rel="shortcut icon" href="{{
+    "/assets/img/favicon.ico" | prepend: site.url
+  }}" />
 
-  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-  <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <title>
+    {% if page.title %}{{ page.title | escape }}{% else %}{{
+      site.title | escape
+    }}{% endif %}
+  </title>
+  <meta
+    name="description"
+    content="{% if page.excerpt %}{{
+      page.excerpt | strip_html | strip_newlines | truncate: 160
+    }}{% else %}{{ site.description }}{% endif %}"
+  />
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <meta
+    itemprop="name"
+    content="{% if page.title %}{{ page.title }}{% else %}{{
+      site.title
+    }}{% endif %}"
+  />
+  <meta
+    itemprop="description"
+    content="{% if page.desc %}{{
+      page.desc | strip_html | strip_newlines | truncate: 160
+    }}{% else %}{{ site.description }}{% endif %}"
+  />
+
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  />
+  <link rel="alternate" type="application/rss+xml" title="{{
+    site.title
+  }}" href="{{
+    "/feed.xml" | prepend: site.baseurl | prepend: site.url
+  }}">
 </head>
