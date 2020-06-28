@@ -1,18 +1,34 @@
 ---
-title: Articles
+title: Articles • Igor Halfeld
 permalink: "/articles/"
 layout: page
 ---
 
+<div class="article-alert-warning">
+  <p>
+    <i>
+      * The articles are being migrated to this blog little by little.
+    </i>
+  </p>
+</div>
+
 <article class="articles">
-  {% for article in site.data.articles %}
-    <a href="{{ article.url }}" target="blank" class="article">
-      <div class="article__box">
-        <h1 class="article__box--title">{{ article.title }}</h1>
-        <h2 class="article__box--desc">{{ article.desc }}</h2>
-        <span class="article__box--date">{{ article.date | upcase}}</span><br>
-        <span class="article__box--lang">{{ article.lang }}</span>
+  {% for article in site.posts %}
+  <a href="{{ article.url }}" class="article">
+    <div class="article__box">
+      <h1 class="article__box--title">{{ article.title }}</h1>
+      <h2 class="article__box--desc">{{ article.desc }}</h2>
+
+      <div class="article__box--content">
+        {{ article.content | truncate: 100 | markdownify }}
       </div>
-    </a>
+
+      <span class="article__box--date">
+        {{ article.date | date: "%d %b %Y" | upcase }}
+      </span>
+      <br />
+      <span class="article__box--lang">{{ article.lang }}</span>
+    </div>
+  </a>
   {% endfor %}
 </article>

@@ -1,4 +1,3 @@
-
 // Menu
 // ====
 .header__nav {
@@ -25,11 +24,10 @@
         font-size: 2rem;
         color: inherit;
         font-weight: 400;
-        transition: all .3s linear;
+        transition: all 0.3s ease-out;
       }
     }
   }
-
 }
 
 .menu-content {
@@ -53,7 +51,7 @@
     height: 100%;
     position: relative;
     transform: translateX(0);
-    transition: .3s ease all;
+    transition: 0.3s ease all;
     backface-visibility: hidden;
   }
 }
@@ -84,7 +82,7 @@
       > li {
         padding: 1.5rem;
         color: inherit;
-        transition: .1s linear all;
+        transition: 0.1s linear all;
         position: relative;
         font-size: 2rem;
 
@@ -102,3 +100,4 @@
     }
   }
 }
+

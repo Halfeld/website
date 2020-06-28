@@ -4,6 +4,7 @@ timezone: UTC
 collections:
   posts:
     title: Posts
+    permalink: /:collection/:name
     output: true
   uploads:
     title: Uploads
@@ -14,23 +15,23 @@ baseurl: ''
 url: https://igorluiz.me
 github_username: igorhalfeld
 markdown: kramdown
+
 links:
-- title: '🏁 Home'
+- title: 'Home'
   url: '/'
-- title: '🦄 About me'
-  url: "/about-me/"
-- title: '📝 Articles'
+# - title: 'About me'
+#  url: "/about-me/"
+- title: 'Activities'
   url: "/articles/"
-- title: '💻 Projects'
+- title: 'Projects'
   url: "/projects/"
-- title: '🧠 Training'
-  url: "/training/"
-- title: '🎥 Videos'
-  url: "/videos/"
-- title: '🗣 Talks'
-  url: "/talks/"
-- title: '💃🏼 Resume'
-  url: https://github.com/Halfeld/halfeld.github.io/blob/master/resume.md
+#- title: 'Training'
+#  url: "/training/"
+#- title: 'Videos'
+#  url: "/videos/"
+#- title: 'Talks'
+#  url: "/talks/"
+
 sass:
   style: compressed
 exclude:

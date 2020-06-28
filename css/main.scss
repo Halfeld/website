@@ -10,32 +10,26 @@
 // }
 
 // Our variables
-$base-font-family: 'Heebo', Helvetica, Arial, sans-serif;
+$base-font-family: "Heebo", Helvetica, Arial, sans-serif;
 // $color-base: #AC5869;
 // $color-base: #18452E;
 // $color-base: #A2001D;
 $color-base: rgb(156, 30, 223);
-$color-second: #591F2F;
-$color-black: #444;
-$color-gray: #F2F2F2;
+$color-second: #591f2f;
+$color-black: #555;
+$color-gray: #f2f2f2;
 
 @keyframes enter-page {
-  from { margin-top: -300px; opacity: 0; }
-  to { margin-top: 0px; opacity: 1.0; }
+  from {
+    margin-top: -300px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0px;
+    opacity: 1;
+  }
 }
 
-@import
-  'base',
-  'header',
-  'header-menu',
-  'content',
-  'articles',
-  'videos',
-  'talks',
-  'modal',
-  'collapse',
-  'training',
-  'projects',
-  'footer',
-  'syntax-highlighting'
-;
+@import "base", "header", "header-menu", "content", "articles", "videos",
+  "talks", "modal", "collapse", "training", "projects", "loading", "footer",
+  "syntax-highlighting";

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html id="app" style="overflow: hidden;">
 
   {% include head.html %}
 
-  <body id="app">
+  <body>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,700" rel="stylesheet">
+
+    <div id="loading" class="loading">
+      <span class="loading-spinner"></span>
+    </div>
 
     <script type="application/ld+json">
       {
@@ -21,7 +25,18 @@
     </script>
 
     {% include sprite.html %}
-    <div class="stars" id="stars"></div>
+
+    {% if page.image %}
+      <div
+        style="background-image: url('/assets/img/{{ page.image }}')"
+        class="stars"
+        id="stars"></div>
+    {% else %}
+      <div
+        class="stars"
+        id="stars"></div>
+    {% endif %}
+
     <div class="wapper" id="wrapper">
 
       <div class="canvas">
@@ -35,11 +50,7 @@
               {% for link in site.links %}
                 <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
               {% endfor %}
-              <!-- <a @click="toggle()" v-for="item in items" :href="item.link">
-                <li
-                  @mouseover="change(primaryColor, secondaryColor, $event)"
-                  @mouseout="changeBack(secondaryColor, $event)">{{ item.name }}</li>
-              </a> -->
+
             </ul>
           </nav>
 
@@ -66,13 +77,11 @@
             {{ content }}
           {% endif %}
       
-          <!-- {% include footer.html %} -->
         </header>
       </div>
     </div>
     {% include footer.html %}
     {% include analytics.html %}
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>

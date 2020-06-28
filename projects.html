@@ -1,14 +1,14 @@
 ---
-title: Projects
+title: Projects • Igor Halfeld
 permalink: "/projects/"
 layout: page
 ---
 
 <article class="projects">
   {% for project in site.data.projects %}
-    <a href="{{ project.link }}}" target="_blank" class="project">
-      <h1 class="project--title">{{ project.title }}</h1>
-      <h2 class="project--desc">{{ project.desc }}</h2>
-    </a>
+  <a href="{{ project.link }}}" target="_blank" class="project">
+    <h1 class="project--title">{{ project.title }}</h1>
+    <h2 class="project--desc">{{ project.desc }}</h2>
+  </a>
   {% endfor %}
 </article>

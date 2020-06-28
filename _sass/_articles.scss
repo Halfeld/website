@@ -1,12 +1,53 @@
+.article-alert-warning {
+  padding: {
+    left: 10px;
+    right: 10px;
+    top: 20px;
+    bottom: 20px;
+  }
+  background-color: #f9f9f9;
+  font-weight: 500;
+
+  > p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #444;
+  }
+}
+
+.instagram-section {
+  padding: {
+    left: 10px;
+    right: 10px;
+    top: 50px;
+    bottom: 50px;
+  }
+  background-color: #f4f4f4;
+
+  p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  a {
+    text-decoration: underline;
+    font-size: 2rem;
+    color: inherit;
+
+    &:hover {
+      color: $color-base;
+    }
+  }
+}
 
 // Box
 // ===
 .articles {
   width: 80vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
   margin: 2rem auto;
 
   @media (max-width: 750px) {
@@ -16,11 +57,12 @@
   // Article
   // =======
   > .article {
-    flex-basis: 25rem;
-    transition: .1s linear all;
+    width: 65%;
+    transition: 0.1s linear all;
     text-decoration: none;
     color: #999;
     box-shadow: 0rem 0rem 10rem $color-gray;
+    border-left: 5px solid $color-base;
     margin: {
       top: 1rem;
       bottom: 1rem;
@@ -30,18 +72,12 @@
       flex-basis: 100vw;
     }
 
-    &:hover,
-    &:active {
-      border-top: 2px solid $color-base;
-      color: $color-black;
-    }
-
     // Article info
     // ============
     > .article__box {
       position: relative;
       padding: 2rem;
-      width: 30rem;
+      width: 100%;
       @media (max-width: 750px) {
         width: 90%;
       }
@@ -50,12 +86,15 @@
       // =====
       > .article__box--title {
         font-size: 3rem;
+        color: $color-black;
       }
 
       // Description
       // ===========
       > .article__box--desc {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-top: -0.5rem;
+        font-weight: 300;
         margin-bottom: 1rem;
       }
 
@@ -65,14 +104,20 @@
         font-size: 1.2rem;
       }
 
+      > .article__box--content {
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+      }
+
       // Language
       // ========
       > .article__box--lang {
         position: absolute;
         background-color: $color-base;
         padding: 0.5rem;
-        top: 1rem;
-        right: -1.5rem;
+        top: 0rem;
+        right: 2rem;
         color: $color-gray;
         font-size: 1.2rem;
         opacity: 0.6;
@@ -80,5 +125,139 @@
       }
     }
   }
+}
 
+.article-content {
+  width: 800px;
+  margin: 30px auto;
+  height: auto;
+  font-family: $base-font-family;
+  padding: 10px;
+
+  @media (max-width: 750px) {
+    width: 95%;
+  }
+
+  > img,
+  > p > img {
+    width: 100%;
+  }
+
+  > iframe {
+    width: 100%;
+  }
+
+  a {
+    text-decoration: underline;
+    font-size: 2rem;
+    color: inherit;
+
+    &:hover {
+      color: $color-base;
+    }
+  }
+
+  code[class*="highlighter"] {
+    background-color: lighten($color-base, 45%);
+    color: #444;
+    border-radius: 4px;
+    padding: 3px;
+    // font-weight bold
+    font-size: 15px;
+  }
+
+  .highlighter-rouge {
+    box-shadow: 0px 10px 30px #f4f4f4;
+    margin: {
+      top: 25px;
+      bottom: 25px;
+    }
+  }
+
+  .highlighter-rouge .highlight {
+    border-radius: 8px;
+    background-color: #f4f4f4;
+  }
+
+  pre {
+    padding: 20px;
+    line-height: 130%;
+    font-size: 1.6rem;
+  }
+
+  table {
+    margin: 50px auto;
+  }
+
+  th,
+  td {
+    border: 2px solid #f4f4f4;
+    padding: 10px;
+  }
+
+  blockquote {
+    padding: 10px;
+    border-left: 5px solid #f4f4f4;
+    margin: 50px 0 50px 0;
+
+    > p {
+      color: #ccc;
+
+      &::before,
+      &:after {
+        content: "";
+        font-size: 22px;
+      }
+    }
+  }
+
+  iframe {
+    box-shadow: 0px 10px 30px #f4f4f4;
+    border-radius: 8px;
+    height: 500px;
+    margin: {
+      top: 25px;
+      bottom: 25px;
+    }
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: $color-black;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    color: $color-black;
+    margin-top: 30px;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    color: $color-black;
+    margin-top: 30px;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+    color: $color-black;
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 1.8rem;
+    line-height: 180%;
+    color: $color-black;
+  }
+
+  li {
+    font-size: 1.8rem;
+    margin-top: 10px;
+
+    &::marker {
+      font-size: 2.2rem;
+      color: $color-base;
+    }
+  }
 }

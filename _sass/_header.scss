@@ -1,13 +1,15 @@
-
 // Header
 // =======
 .header {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   color: $color-gray;
-  background-image: linear-gradient(35deg, rgba(156, 30, 223, 0.5), rgba(42, 23, 164, 0.5));
-  z-index: 1;
-
+  background-image: linear-gradient(
+    35deg,
+    rgba(156, 30, 223, 0.5),
+    rgba(42, 23, 164, 0.5)
+  );
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,49 +28,47 @@
     // Details
     // =======
     > .header__personal-info {
+      //width: 1200px;
+      max-width: 1200px;
       display: flex;
       flex-direction: column;
       justify-content: center;
 
+      > .header__personal-info--time {
+        font-size: 2rem;
+      }
       // Name
       // ====
-      > .header__personal-info--name {
+      > .header__personal-info--desc {
         font-size: 5.5rem;
-        text-align: left;
+        text-align: center;
+        width: 100%;
         // text-transform: itlic;
         font-weight: 400;
-        margin: {
-          left: 100px;
-          bottom: 30px;
-        }
+
         // animation: enter-page 400ms ease-in-out;
         @media screen and (max-width: 930px) {
           font-size: 4rem;
         }
         @media screen and (max-width: 810px) {
           font-size: 2.5rem;
-          margin: {
-            left: 10px;
-            bottom: 10px;
-          }
         }
       }
 
       // Description
       // ===========
-      > .header__personal-info--desc {
+      > .header__personal-info--name {
         font-size: 10rem;
         font-weight: 700;
-        text-align: left;
+        text-align: center;
         line-height: 100%;
         // text-transform: uppercase;
         animation: enter-page 400ms ease-in-out;
+        animation-delay: 800ms;
         padding: {
-          top: 0px;
-          left: 100px;
-          right: 100px;
-          bottom: 0px;
-        };
+          top: -5px;
+        }
+        width: 100%;
 
         @media screen and (max-width: 1250px) {
           font-size: 12rem;
@@ -77,11 +77,9 @@
           font-size: 10rem;
         }
         @media screen and (max-width: 810px) {
-          font-size: 7rem;
-          padding: 10px;
+          font-size: 6rem;
         }
       }
     }
   }
-
 }

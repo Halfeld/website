@@ -1,14 +1,29 @@
 <header class="header">
-
   <div class="header__personal">
     <!-- My photo -->
     <!-- <img class="header__personal-photo" src="{{ "/assets/img/halfeld2.jpeg" | prepend: site.baseurl }}" alt="" /> -->
 
     <!-- My informations -->
+    {% if page.title %}
     <div class="header__personal-info">
-      <h1 class="header__personal-info--name" id="title">My name's <strong>{{ site.title }}</strong> and</h1>
-      <h2 class="header__personal-info--desc" id="subtitle">I'm building a sexier web.</h2>
+      <h1 class="header__personal-info--name" id="title">{{ page.title }}</h1>
+      <h2 class="header__personal-info--desc" id="subtitle">
+        {{ page.desc }}
+      </h2>
+      <h3 class="header__personal-info--time">
+        {{ page.date | date: "%d %b %Y" }}
+      </h3>
     </div>
+    {% else %}
+    <div class="header__personal-info">
+      <h1 class="header__personal-info--name" id="title">
+        <strong>{{ site.title }}</strong>
+      </h1>
+      <h2 class="header__personal-info--desc" id="subtitle">
+        I'm building a sexier web.
+      </h2>
+    </div>
+    {% endif %}
   </div>
 
   <!-- Menu -->
