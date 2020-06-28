@@ -1,4 +1,9 @@
-G  <body>
+<!DOCTYPE html>
+<html id="app" style="overflow: hidden;">
+
+  {% include head.html %}
+
+  <body>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,700" rel="stylesheet">
 
@@ -18,18 +23,6 @@ G  <body>
         }
       }
     </script>
-
-
-    {% if page.image %}
-      <div
-        style="background-image: url('/assets/img/{{ page.image }}')"
-        class="stars"
-        id="stars"></div>
-    {% else %}
-      <div
-        class="stars"
-        id="stars"></div>
-    {% endif %}
 
     <div class="wapper" id="wrapper">
 
@@ -60,20 +53,11 @@ G  <body>
   
         <!-- Custom header -->
         <header class="menu-content">
-          {% include header.html %}
-        
-          {% if page.markdown %}
-            <article class="content">
-              {{ content }}
-            </article>
-          {% else %}
-            {{ content }}
-          {% endif %}
-      
+          {{ content }}
         </header>
       </div>
     </div>
-    {% include footer.html %}
+
     {% include analytics.html %}
     <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
   </body>
