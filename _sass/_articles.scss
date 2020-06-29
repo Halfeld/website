@@ -30,9 +30,10 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 2rem;
     color: inherit;
+    border-bottom: 5px solid $color-base;
 
     &:hover {
       color: $color-base;
@@ -153,9 +154,10 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 2rem;
     color: inherit;
+    border-bottom: 5px solid $color-base;
 
     &:hover {
       color: $color-base;

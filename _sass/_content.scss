@@ -17,14 +17,15 @@
       text-align: right;
 
       > a {
-        color: $color-base;
+        color: $color-black;
         text-decoration: none;
         padding: 0.5rem;
         border-radius: 4px;
         transition: all 0.1s ease-in;
+        border-bottom: 5px solid $color-base;
+
         &:hover {
-          background-color: $color-base;
-          color: white;
+          color: $color-base;
         }
       }
     }
@@ -94,9 +95,10 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 2rem;
     color: inherit;
+    border-bottom: 5px solid $color-base;
 
     &:hover {
       color: $color-base;
