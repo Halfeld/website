@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Como foi o Azure Global Conference?"
-desc: "O que rolou no evento!"
+title: "Como foi o descomplicando Azure?"
+desc: "Duas semanas inteiras de conteúdo sobre Azure"
 lang: "Portuguese"
-date: 2020-06-25T00:00:00.000Z
+date: 2020-06-29T00:00:00.000Z
 image: azure-global.png
 ---
 
