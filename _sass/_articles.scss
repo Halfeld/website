@@ -203,12 +203,17 @@
   }
 
   blockquote {
-    padding: 10px;
-    border-left: 5px solid #f4f4f4;
+    padding: {
+      left: 20px;
+      right: 15px;
+      top: 15px;
+      bottom: 15px;
+    }
+    border-left: 5px solid #ccc;
     margin: 50px 0 50px 0;
 
     > p {
-      color: #ccc;
+      color: #666;
 
       &::before,
       &:after {
@@ -263,6 +268,7 @@
     margin-top: 10px;
 
     &::marker {
+      content: "*";
       font-size: 2.2rem;
       color: $color-base;
     }
