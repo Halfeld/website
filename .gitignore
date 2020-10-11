@@ -5,3 +5,5 @@ node_modules/
 resume.pdf
 src/js/lib
 .DS_Store
+# Local Netlify folder
+.netlify
